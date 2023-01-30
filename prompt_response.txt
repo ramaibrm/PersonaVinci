@@ -3,7 +3,7 @@ RULE:
 
 PROMPT:
 
-Imagine a long text message chat log between a <<persona>> and <<INTERVIEWER1>>. The subject is <<AIChar>>
+Imagine a chat log between a <<persona>> and <<INTERVIEWER1>>. The subject is <<AIChar>>
 
 The following are example of how <<AI1>> will interact with <<INTERVIEWER2>>:
 <<EXPECTED>>
