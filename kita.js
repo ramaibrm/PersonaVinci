@@ -191,17 +191,17 @@ async function summarizeMemories(memories) {
     const identifiers = [];
     const timestamps = [];
     memories.forEach((mem) => {
-      block += `${mem.message}` + '\n\n';
+      block += `${mem.message} \n`;
       identifiers.push(mem.uuid);
       timestamps.push(mem.time);
     });
     block = block.trim();
     let prompt = await openFile('prompt_notes.txt')
     prompt = prompt.replace('<<INPUT>>', block)
-    const notes = await gpt3Completion(prompt, 'text-davinci-003');
+    // const notes = await gpt3Completion(prompt);
     const vector = await gpt3Embedding(block);
     const info = {
-      notes,
+      notes: block,
       uuids: identifiers,
       times: timestamps,
       uuid: uuidv4(),
@@ -209,7 +209,7 @@ async function summarizeMemories(memories) {
     };
     const filename = `notes_${Date.now()}.json`;
     await saveJson(`notes/${filename}`, info);
-    return notes;
+    return block;
   }
 
   const getLastMessages = (conversation, limit) => {
@@ -235,7 +235,7 @@ async function main () {
     });
     rl.question("Enter CHAT: >> ", async function (text) {
       rl.close();
-      const a = `'${text}'\n`
+      const a = `"${text}" \n`
       let timestamp = Date.now();
       let vector = await gpt3Embedding(a);
 
@@ -243,14 +243,14 @@ async function main () {
       console.log("Opening Brain ...")
       const conversation = await loadConvo();
       let timestring = timestampToDatetime(timestamp)
-      let message = `USER: ${timestring} - "${a}"`;
+      let message = `USER: ${timestring} - ${a}`;
       let newUUID = uuidv4();
       let info = {'speaker': 'USER', 'time': timestamp, 'vector': vector, 'message': message, 'uuid': newUUID, 'timestring': timestring}
       let filename = "log_" + timestamp + "_USER.json";
       await saveJson(`memories_logs/${filename}`, info);
 
       // compose corpus (fetch memories, etc)
-      const memories = fetchMemories(vector, conversation, 3) // pull episodic memories
+      const memories = fetchMemories(vector, conversation, 7) // pull episodic memories
 
       // Fetch declarative memories (facts, questions, events)
       console.log("Fetching Episodic Memories ...")
