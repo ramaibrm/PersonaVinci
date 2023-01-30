@@ -155,7 +155,7 @@ async function gpt3Completion(prompt, engine = 'text-curie-001', temp = 0.0, top
         if (!fs.existsSync('gpt3_logs_js')) {
             fs.mkdirSync('gpt3_logs_js');
         }
-        fs.writeFileSync(`gpt3_logs_js/${filename}`, `${prompt}\n\n==========\n\n${text}`);
+        fs.writeFileSync(`gpt3_logs_js/${filename}`, `${prompt}\n${text}`);
         return text;
         } catch (oops) {
         retry += 1;
@@ -198,10 +198,10 @@ async function summarizeMemories(memories) {
     block = block.trim();
     let prompt = await openFile('prompt_notes.txt')
     prompt = prompt.replace('<<INPUT>>', block)
-    // const notes = await gpt3Completion(prompt);
+    const notes = await gpt3Completion(prompt);
     const vector = await gpt3Embedding(block);
     const info = {
-      notes: block,
+      notes: notes,
       uuids: identifiers,
       times: timestamps,
       uuid: uuidv4(),
@@ -209,7 +209,7 @@ async function summarizeMemories(memories) {
     };
     const filename = `notes_${Date.now()}.json`;
     await saveJson(`notes/${filename}`, info);
-    return block;
+    return notes;
   }
 
   const getLastMessages = (conversation, limit) => {
@@ -226,7 +226,8 @@ async function summarizeMemories(memories) {
     return output.trim();
   };
 
-let mood = 'Playful';
+let mood = 'Snarky';
+let viewerName = 'Az';
 
 async function main () {
     var rl = readline.createInterface({
@@ -243,10 +244,10 @@ async function main () {
       console.log("Opening Brain ...")
       const conversation = await loadConvo();
       let timestring = timestampToDatetime(timestamp)
-      let message = `USER: ${timestring} - ${a}`;
+      let message = `${viewerName}: ${timestring} - ${a}`;
       let newUUID = uuidv4();
-      let info = {'speaker': 'USER', 'time': timestamp, 'vector': vector, 'message': message, 'uuid': newUUID, 'timestring': timestring}
-      let filename = "log_" + timestamp + "_USER.json";
+      let info = {'speaker': viewerName, 'time': timestamp, 'vector': vector, 'message': message, 'uuid': newUUID, 'timestring': timestring}
+      let filename = "log_" + timestamp + `_${viewerName}.json`;
       await saveJson(`memories_logs/${filename}`, info);
 
       // compose corpus (fetch memories, etc)
@@ -257,12 +258,18 @@ async function main () {
       const notes = await summarizeMemories(memories)
 
       // Get recent conversations
-      const recent = getLastMessages(conversation, 1)
+      const recent = getLastMessages(conversation, 5)
       let prompt = await openFile('prompt_response.txt')
+      let topicPrompt = await openFile('search_topic.txt')
+      topicPrompt = topicPrompt.replace("<<PREVIOUS_CHAT>>", getLastMessages(conversation, 1))
       let rules = await openFile('AI_ResponseRule.txt')
+      rules = rules.replace('<<viewer_name>>', viewerName).replace('<<time>>', timestring);
+
       let expectedResponse = await openFile('AI_ExpectedResponse.txt')
-      
-      prompt = prompt.replace('<<NOTES>>', notes).replace('<<MOOD>>', mood).replace('<<EXPECTED>>', expectedResponse).replace('<<CONVERSATION>>', recent).replace('<<QUESTION>>', a).replace('<<RULE>>', rules).replace('<<persona>>', AIChar.characterPersona).replace('<<INTERVIEWER1>>', AIChar.interviewer).replace('<<AIChar>>', AIChar.characterInfo).replace('<<INTERVIEWER2>>', AIChar.interviewer).replace('<<AI1>>', AIChar.characterName).replace('<<AI2>>', AIChar.characterName);
+
+      const topic = await gpt3Completion(topicPrompt);
+
+      prompt = prompt.replace("<<TOPIC>>", topic).replace('<<NOTES>>', notes).replace('<<MOOD>>', mood).replace('<<EXPECTED>>', expectedResponse).replace('<<CONVERSATION>>', recent).replace('<<QUESTION>>', `${viewerName}: ${a}`).replace('<<RULE>>', rules).replace('<<persona>>', AIChar.characterPersona).replace('<<INTERVIEWER1>>', AIChar.interviewer).replace('<<AIChar>>', AIChar.characterInfo).replace('<<INTERVIEWER2>>', AIChar.interviewer).replace('<<AI1>>', AIChar.characterName).replace('<<AI2>>', AIChar.characterName);
       
       console.log(`${AIChar.characterName} is Thinking of an answer ...`)
       // generate response, vectorize, save, etc
@@ -271,7 +278,7 @@ async function main () {
       vector = await gpt3Embedding(output)
       timestring = timestampToDatetime(timestamp)
   
-      const outputSplit = output.split('\n')
+      const outputSplit = output.split('\n').filter(x => x);
       message = `${AIChar.characterName}: ${timestring} - "${outputSplit[1]}"`;
       info = {'speaker': `${AIChar.characterName}`, 'time': timestamp, 'vector': vector, 'message': message, 'uuid': uuidv4(), 'timestring': timestring}
       filename = "log_" + timestamp + `_${AIChar.characterName}.json`;

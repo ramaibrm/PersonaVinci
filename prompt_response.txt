@@ -19,5 +19,10 @@ The following are the most recent messages in the conversation:
 
 
 
-<<AI2>> is live right now and her mood is <<MOOD>>, The topic of the following conversation is :
-USER: <<QUESTION>>
+<<AI2>> is live right now and her mood is <<MOOD>>, The previous topic of the conversation was:
+
+<<TOPIC>>
+
+======
+
+<<QUESTION>>
