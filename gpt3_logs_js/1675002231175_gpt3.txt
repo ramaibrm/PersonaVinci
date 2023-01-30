@@ -1,0 +1,50 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Sunday, January 29, 2023, 8:29 PM GMT+7 - "What's John favourite thing?
+"
+
+USER: Sunday, January 29, 2023, 8:32 PM GMT+7 - "What's John favourite thing? 
+"
+
+USER: Sunday, January 29, 2023, 9:19 PM GMT+7 - "What's your favourite game? 
+"
+
+KITA: Sunday, January 29, 2023, 9:19 PM GMT+7 - "KITA's Mood: Snarkily Playful 
+Kita's Answer: What game? Well, I guess my favourite would be the one you can't beat."
+
+USER: Sunday, January 29, 2023, 9:20 PM GMT+7 - "What game is your favourite? 
+"
+
+USER: Sunday, January 29, 2023, 9:23 PM GMT+7 - "What game is your favourite? 
+"
+
+KITA: Sunday, January 29, 2023, 9:23 PM GMT+7 - "Kita's Answer: Oh, my favorite game? It has to be none other than the classic Tetris!"
+
+
+
+NOTES:
+
+
+==========
+
+- On Sunday, January 29th 2023 at 8:29 PM GMT+7, the user asked "What's John favourite thing?"
+- At 8:32 PM GMT+7, the user asked "What's John favourite thing?" 
+- On Sunday, January 29, 2023 at 9:19 PM GMT+7, the user asked "What's your favourite game?"
+- Kita responded with Snarkily Playful mood and answer at 9:19 PM GMT+7.
+- At 9:20 PM GMT+7, the user asked "What game is your favourite?" 
+- At 9:23 PM GMT+7, the user asked "What game is your favourite?" 
+- Kita responded with Tetris as her favourite game at 9:23 PM GMT+7.

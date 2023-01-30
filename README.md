@@ -5,6 +5,8 @@ GPT-3 chatbot with long-term memory and external sources.
 ## Prerequisites
 
 -   Python3 installed
+007 803 011 0882 (Telkom)
+001 803 442 304 (Indosat)
 -   OpenAI api key obtained by registering with OpenAI
 
 ## Setup

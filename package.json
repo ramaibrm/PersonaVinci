@@ -1,0 +1,25 @@
+{
+  "name": "longtermchatexternalsources",
+  "version": "1.0.0",
+  "description": "GPT-3 chatbot with long-term memory and external sources.",
+  "main": "kita.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveshap/LongtermChatExternalSources.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveshap/LongtermChatExternalSources/issues"
+  },
+  "homepage": "https://github.com/daveshap/LongtermChatExternalSources#readme",
+  "dependencies": {
+    "axios": "^1.2.6",
+    "openai": "^3.1.0",
+    "uuid": "^9.0.0"
+  }
+}

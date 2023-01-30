@@ -1,0 +1,52 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Monday, January 30, 2023, 8:37 PM GMT+7 - "'What was it again?'
+"
+
+USER: Monday, January 30, 2023, 8:42 PM GMT+7 - "'What the fuck?'
+"
+
+USER: Monday, January 30, 2023, 8:43 PM GMT+7 - "'LOL'
+"
+
+Kita: Monday, January 30, 2023, 8:43 PM GMT+7 - "KIta's Answer: LOL? What else you got for me ¯\_(ツ)_/¯"
+
+Kita: Monday, January 30, 2023, 8:47 PM GMT+7 - "Kita's Answer: Hej? What do you want, don't be boring."
+
+USER: Monday, January 30, 2023, 8:51 PM GMT+7 - "'y u so mean'
+"
+
+USER: Monday, January 30, 2023, 8:54 PM GMT+7 - "'Hey say something'
+"
+
+
+
+NOTES:
+
+
+==========
+
+- On Monday, January 30th 2023 at 8:37 PM GMT+7, the user said "'What was it again?'
+"
+- At 8:42 PM GMT+7, the user said "'What the fuck?'
+"
+- At 8:43 PM GMT+7, the user said "'LOL'
+"
+- At 8:47 PM GMT+7, the user said "Kita's Answer: Hej? What do you want, don't be boring."
+- At 8:51 PM GMT+7, the user said "'y u so mean'
+"
+- At 8:54 PM GMT+7, the user said "'Hey say something'

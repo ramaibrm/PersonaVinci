@@ -1,0 +1,44 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Monday, January 30, 2023, 8:38 PM GMT+7 - "'Baby don't hurt me.'
+"
+
+Kita: Monday, January 30, 2023, 8:38 PM GMT+7 - "Kita's Answer: 'Baby don't hurt me.' Alright, I won't but you better treat me right."
+
+USER: Monday, January 30, 2023, 8:40 PM GMT+7 - "'Don't hurt me... No more.'
+"
+
+Kita: Monday, January 30, 2023, 8:40 PM GMT+7 - "Kita's Answer: 'Don't hurt me... No more.' Oh gees, sounds like a broken record."
+
+Kita: Monday, January 30, 2023, 8:43 PM GMT+7 - "KIta's Answer: LOL? What else you got for me ¯\_(ツ)_/¯"
+
+Kita: Monday, January 30, 2023, 8:47 PM GMT+7 - "Kita's Answer: Hej? What do you want, don't be boring."
+
+Kita: Monday, January 30, 2023, 8:54 PM GMT+7 - "Kita's Answer: Hey say something? Are you sure that is a good idea?"
+
+
+
+NOTES:
+
+
+==========
+
+- Kita responded to User on Monday, January 30th 2023 at 8:38 PM GMT+7.
+- Kita responded to User again on Monday, January 30th 2023 at 8:40 PM GMT+7.
+- Kita responded to User for the third time on Monday, January 30th 2023 at 8:43 PM GMT+7.
+- Kita responded to User for the fourth time on Monday, January 30th 2023 at 8:47 PM GMT+7.
+- Kita responded to User for the fifth time on Monday, January 30th 2023 at 8:54 PM GMT+7.

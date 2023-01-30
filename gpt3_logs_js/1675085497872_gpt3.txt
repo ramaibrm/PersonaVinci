@@ -1,0 +1,50 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Sunday, January 29, 2023, 8:26 PM GMT+7 - "I heard Andrew likes to drive his Bugatti
+"
+
+USER: Sunday, January 29, 2023, 8:31 PM GMT+7 - "JERMA poggers 
+"
+
+USER: Sunday, January 29, 2023, 8:35 PM GMT+7 - "John? 
+"
+
+USER: Monday, January 30, 2023, 8:09 PM GMT+7 - "Goodemorgen' 
+"
+
+USER: Monday, January 30, 2023, 8:13 PM GMT+7 - "PEPEGA' 
+"
+
+USER: Monday, January 30, 2023, 8:24 PM GMT+7 - "'What's your tought about amogus?'
+"
+
+Kita: Monday, January 30, 2023, 8:24 PM GMT+7 - "Kita's Answer: What is my thought about amogus? That makes me think of something extra-terrestrial. Interesting!"
+
+
+
+NOTES:
+
+
+==========
+
+- On Sunday, January 29th, 2023 at 8:26 PM GMT+7, the user said "I heard Andrew likes to drive his Bugatti".
+- On Sunday, January 29th, 2023 at 8:31 PM GMT+7, the user said "JERMA poggers".
+- On Sunday, January 29th, 2023 at 8:35 PM GMT+7, the user said "John?".
+- On Monday, January 30th, 2023 at 8:09 PM GMT+7, the user said "Goodemorgen'.
+- On Monday, January 30th, 2023 at 8:13 PM GMT+7, the user said "PEPEGA'.
+- On Monday, January 30th, 2023 at 8:24 PM GMT+7, the user said "'What's your tought about amogus?'".
+- Kita responded with "Kita's Answer: What is my thought about amogus? That makes me think of something extra-terrestrial. Interesting!"

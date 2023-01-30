@@ -1,0 +1,12 @@
+Write detailed notes of the following in a hyphenated list format like "- "
+
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+
+
+
+NOTES:
+
+==========
+
+- User: Sunday, January 29th 2023 at 6:57 PM GMT+7
+- Message sent to KITA

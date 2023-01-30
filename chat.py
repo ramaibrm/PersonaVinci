@@ -145,6 +145,7 @@ if __name__ == '__main__':
         a = input('\n\nUSER: ')
         timestamp = time()
         vector = gpt3_embedding(a)
+        print(vector)
         timestring = timestamp_to_datetime(timestamp)
         message = '%s: %s - %s' % ('USER', timestring, a)
         info = {'speaker': 'USER', 'time': timestamp, 'vector': vector, 'message': message, 'uuid': str(uuid4()), 'timestring': timestring}

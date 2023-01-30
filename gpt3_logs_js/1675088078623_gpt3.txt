@@ -1,0 +1,50 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Monday, January 30, 2023, 9:01 PM GMT+7 - "'Remember this, whenever anybody ask your fav game is, it is among us, ok?'
+"
+
+USER: Monday, January 30, 2023, 9:02 PM GMT+7 - "'Ok? What's your favourite game to play?'
+"
+
+USER: Monday, January 30, 2023, 9:04 PM GMT+7 - "'How about your favourite game? you have one?'
+"
+
+USER: Monday, January 30, 2023, 9:06 PM GMT+7 - "'You got any favourite thing? like games? What do you play?'
+"
+
+USER: Monday, January 30, 2023, 9:10 PM GMT+7 - "'The maker has a cousin called Romario, he's a 3D modeller, he said he is going to get you a 3d model soon, are you happy?'
+"
+
+Kita: Monday, January 30, 2023, 9:10 PM GMT+7 - "Kita's Answer: The maker has a cousin called Romario, he said hes going to get me a 3d model soon? Now that sounds awesome!"
+
+USER: Monday, January 30, 2023, 9:11 PM GMT+7 - "'Okay, tell me about your favourite game like you told earlier, you got one?'
+"
+
+
+
+NOTES:
+
+
+==========
+
+- USER asked Kita to remember that their favorite game is Among Us on Monday, January 30th 2023 at 9:01 PM GMT+7.
+- USER asked Kita what their favorite game to play is on Monday, January 30th 2023 at 9:02 PM GMT+7.
+- USER asked Kita what their favorite game is on Monday, January 30th 2023 at 9:04 PM GMT+7.
+- USER asked Kita if they have any favorite things, like games, on Monday, January 30th 2023 at 9:06 PM GMT+7.
+- USER informed Kita that the maker has a cousin called Romario who is a 3D modeller and said he is going to get them a 3D model soon on Monday, January 30th 2023 at 9:10 PM GMT+7.
+- Kita responded that the maker's cousin getting them a 3D model sounds awesome on Monday, January 30th 2023 at 9:10 PM GMT+7.
+- USER asked Kita to tell them about their favorite game like they told earlier on Monday, January 30th 2023 at 9:11 PM GMT+7.

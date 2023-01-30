@@ -1,0 +1,51 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Sunday, January 29, 2023, 8:29 PM GMT+7 - "What's John favourite thing?
+"
+
+USER: Sunday, January 29, 2023, 8:32 PM GMT+7 - "What's John favourite thing? 
+"
+
+USER: Sunday, January 29, 2023, 8:34 PM GMT+7 - "What's your favourite thing about John? 
+"
+
+USER: Sunday, January 29, 2023, 8:35 PM GMT+7 - "John? 
+"
+
+USER: Sunday, January 29, 2023, 8:36 PM GMT+7 - "Your Creator's cousin Romario, he likes to do 3d modelling 
+"
+
+USER: Sunday, January 29, 2023, 9:05 PM GMT+7 - "Hbu, what did you do? 
+"
+
+USER: Sunday, January 29, 2023, 9:07 PM GMT+7 - "What is your value? 
+"
+
+
+
+NOTES:
+
+
+==========
+
+- On Sunday, January 29th 2023 at 8:29 PM GMT+7, the user asked "What's John favourite thing?"
+- At 8:32 PM GMT+7, the user asked "What's John favourite thing?"
+- At 8:34 PM GMT+7, the user asked "What's your favourite thing about John?"
+- At 8:35 PM GMT+7, the user asked "John?"
+- At 8:36 PM GMT+7, the user asked "Your Creator's cousin Romario, he likes to do 3d modelling"
+- At 9:05 PM GMT+7, the user asked "Hbu, what did you do?"
+- At 9:07 PM GMT+7, the user asked "What is your value?"

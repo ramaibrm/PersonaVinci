@@ -1,0 +1,49 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Sunday, January 29, 2023, 7:50 PM GMT+7 - jason 882
+
+USER: Sunday, January 29, 2023, 8:11 PM GMT+7 - I heard Jason likes to eat plants 
+
+
+USER: Sunday, January 29, 2023, 8:12 PM GMT+7 - Jason have plants fetishes
+
+
+USER: Sunday, January 29, 2023, 8:13 PM GMT+7 - Jason have plants fetishes
+
+
+USER: Sunday, January 29, 2023, 8:13 PM GMT+7 - JASON LETS GOOOO
+
+
+USER: Sunday, January 29, 2023, 8:15 PM GMT+7 - JASON RAID
+
+
+USER: Sunday, January 29, 2023, 8:16 PM GMT+7 - Tell me what you know about what Jason really loves
+
+
+
+NOTES:
+
+
+==========
+
+- Jason 882 talked to user on Sunday, January 29th 2023 at 7:50 PM GMT+7.
+- Jason talked about plants and how he has a fetish for them on Sunday, January 29th 2023 at 8:11 PM GMT+7.
+- Jason talked about plants again on Sunday, January 29th 2023 at 8:12 PM GMT+7.
+- Jason said "I heard Jason likes to eat plants" on Sunday, January 29th 2023 at 8:13 PM GMT+7.
+- Jason said "Jason have plants fetishes" on Sunday, January 29th 2023 at 8:13 PM GMT+7.
+- Jason said "Jason have plants fetishes" again on Sunday, January 29th 2023 at 8:15 PM GMT+7.
+- Jason said "Tell me what you know about what Jason really loves" on Sunday, January 29th 2023 at 8:16 PM GMT+7.

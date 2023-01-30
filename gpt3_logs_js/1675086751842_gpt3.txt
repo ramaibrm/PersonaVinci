@@ -1,0 +1,41 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Sunday, January 29, 2023, 9:23 PM GMT+7 - "What's your favourite game?' 
+"
+
+KITA: Sunday, January 29, 2023, 9:24 PM GMT+7 - "Kita's Answer: My favourite game is still Tetris, it will never get old!"
+
+KITA: Monday, January 30, 2023, 7:58 PM GMT+7 - "Kita's Answer: My favorite game is still Tetris, it never gets old!"
+
+KITA: Monday, January 30, 2023, 8:01 PM GMT+7 - "Kita's Answer: What can I say, my favorite game is still Tetris forever!"
+
+USER: Monday, January 30, 2023, 8:36 PM GMT+7 - "'What's your favourite game?'
+"
+
+Kita: Monday, January 30, 2023, 8:36 PM GMT+7 - "Kita's Answer: What is my favourite game? I am a big fan of Animal Crossing, it never gets old."
+
+Kita: Monday, January 30, 2023, 8:36 PM GMT+7 - "Kita's Answer: Any other favourite games? Of course! I'm a big fighter game fan and love playing Street Fighter, Smash Bros. Ultimate and the latest Fighting EX Layer too."
+
+
+
+NOTES:
+
+
+==========
+
+- Kita answered USER's question on Monday, January 30th 2023 at 8:36 PM GMT+7.
+- Kita mentioned Animal Crossing, Street Fighter, Smash Bros. Ultimate, and Fighting EX Layer as her favorite games.

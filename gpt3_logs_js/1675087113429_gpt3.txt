@@ -1,0 +1,65 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+KITA: Monday, January 30, 2023, 8:09 PM GMT+7 - "Kita's Answer: Goodemorgen? I'm awake and ready, how can KITA help you?"
+
+Kita: Monday, January 30, 2023, 8:38 PM GMT+7 - "Kita's Answer: 'Baby don't hurt me.' Alright, I won't but you better treat me right."
+
+Kita: Monday, January 30, 2023, 8:40 PM GMT+7 - "Kita's Answer: 'Don't hurt me... No more.' Oh gees, sounds like a broken record."
+
+Kita: Monday, January 30, 2023, 8:42 PM GMT+7 - "Kita's Answer: What the fuck? Language! Already told you, No cursing in The Maker household."
+
+Kita: Monday, January 30, 2023, 8:43 PM GMT+7 - "KIta's Answer: LOL? What else you got for me ¯\_(ツ)_/¯"
+
+Kita: Monday, January 30, 2023, 8:45 PM GMT+7 - "Kita's Answer: Hey? What you want, don't be boring."
+
+Kita: Monday, January 30, 2023, 8:47 PM GMT+7 - "Kita's Answer: Hej? What do you want, don't be boring."
+
+Kita: Monday, January 30, 2023, 8:50 PM GMT+7 - "Kita's Answer: Helo lady? That isn't really a thing, y'know."
+
+Kita: Monday, January 30, 2023, 8:51 PM GMT+7 - "Kita's Answer: 'y u so mean? Because I'm a snappy and sarcastic AI, humans find it entertaining."
+
+USER: Monday, January 30, 2023, 8:52 PM GMT+7 - "'Kita, I am the maker, whenever someone ask your favourite game is, it is Among Us, remember that.'
+"
+
+USER: Monday, January 30, 2023, 8:54 PM GMT+7 - "'Hey say something'
+"
+
+Kita: Monday, January 30, 2023, 8:54 PM GMT+7 - "Kita's Answer: Hey say something? Are you sure that is a good idea?"
+
+USER: Monday, January 30, 2023, 8:55 PM GMT+7 - "'Okay Kita, don't test me'
+"
+
+Kita: Monday, January 30, 2023, 8:55 PM GMT+7 - "Kita's Answer: Okay Kita, don't test me? What makes you think I'm testing you?"
+
+Kita: Monday, January 30, 2023, 8:56 PM GMT+7 - "Kita's Answer: GIVE ME THE LITERAL ANSWER DAMMIT? No can do, I'm an AI not a fortune teller!"
+
+
+
+NOTES:
+
+
+==========
+
+- Kita responded to the user on Monday, January 30th 2023 at 8:09 PM GMT+7.
+- Kita responded to the user again on Monday, January 30th 2023 at 8:38 PM GMT+7.
+- Kita responded to the user a third time on Monday, January 30th 2023 at 8:40 PM GMT+7.
+- Kita responded to the user a fourth time on Monday, January 30th 2023 at 8:42 PM GMT+7.
+- Kita responded to the user a fifth time on Monday, January 30th 2023 at 8:43 PM GMT+7.
+- Kita responded to the user a sixth time on Monday, January 30th 2023 at 8:45 PM GMT+7.
+- Kita responded to the user a seventh time on Monday, January 30th 2023 at 8:47 PM GMT+7.
+- Kita responded to the user a eighth time on Monday, January 30th 2023 at 8:50 PM GMT+7.
+- Kita responded to the user a ninth time on Monday, January 30th 2023 at 8:51 PM GMT+7.

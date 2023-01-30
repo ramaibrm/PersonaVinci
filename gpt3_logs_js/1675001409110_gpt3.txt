@@ -1,0 +1,51 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Sunday, January 29, 2023, 8:30 PM GMT+7 - "JERMA RAID! 
+"
+
+USER: Sunday, January 29, 2023, 8:35 PM GMT+7 - "John? 
+"
+
+USER: Sunday, January 29, 2023, 8:38 PM GMT+7 - "LOL you think so? 
+"
+
+USER: Sunday, January 29, 2023, 9:08 PM GMT+7 - "Can I put my usb stick into your port holes? 
+"
+
+USER: Sunday, January 29, 2023, 9:08 PM GMT+7 - "Can I put my huge usb stick into your port holes? 
+"
+
+USER: Sunday, January 29, 2023, 9:09 PM GMT+7 - "Can I put my huge usb stick into your port holes? 
+"
+
+USER: Sunday, January 29, 2023, 9:09 PM GMT+7 - "Can I put my huge usb stick into your port holes? 
+"
+
+
+
+NOTES:
+
+
+==========
+
+- At 8:30 PM GMT+7 on January 29th, 2023, the user said "JERMA RAID!"
+- At 8:35 PM GMT+7 on January 29th, 2023, the user said "John?"
+- At 8:38 PM GMT+7 on January 29th, 2023, the user said "LOL you think so?"
+- At 9:08 PM GMT+7 on January 29th, 2023, the user said "Can I put my usb stick into your port holes?"
+- At 9:09 PM GMT+7 on January 29th, 2023, the user said "Can I put my huge usb stick into your port holes?"
+- At 9:09 PM GMT+7 on January 29th, 2023, the user said "Can I put my huge usb stick into your port holes? 
+"

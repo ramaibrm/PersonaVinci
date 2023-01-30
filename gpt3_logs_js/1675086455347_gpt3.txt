@@ -1,0 +1,51 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Sunday, January 29, 2023, 8:35 PM GMT+7 - "John? 
+"
+
+USER: Monday, January 30, 2023, 8:06 PM GMT+7 - "Senpai' 
+"
+
+USER: Monday, January 30, 2023, 8:09 PM GMT+7 - "Goodemorgen' 
+"
+
+USER: Monday, January 30, 2023, 8:13 PM GMT+7 - "PEPEGA' 
+"
+
+USER: Monday, January 30, 2023, 8:42 PM GMT+7 - "'What the fuck?'
+"
+
+USER: Monday, January 30, 2023, 8:43 PM GMT+7 - "'LOL'
+"
+
+USER: Monday, January 30, 2023, 8:45 PM GMT+7 - "'Hey'
+"
+
+
+
+NOTES:
+
+
+==========
+
+- On Monday, January 30th 2023 at 8:35 PM GMT+7, John called.
+- At 8:06 PM GMT+7 on Monday, January 30th 2023, Senpai called.
+- At 8:09 PM GMT+7 on Monday, January 30th 2023, Goodemorgen called.
+- At 8:13 PM GMT+7 on Monday, January 30th 2023, PEPEGA called.
+- At 8:42 PM GMT+7 on Monday, January 30th 2023, John said, "What the fuck?"
+- At 8:43 PM GMT+7 on Monday, January 30th 2023, John said, "LOL"
+- At 8:45 PM GMT+7 on Monday, January 30th 2023, John said, "Hey."

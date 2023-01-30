@@ -1,0 +1,32 @@
+Write detailed notes of the following in a hyphenated list format like "- "
+
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - LOVE YOU KITA
+
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - Love you KITA
+
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - Love you KITA
+
+USER: Sunday, January 29, 2023, 7:01 PM GMT+7 - Love you KITA
+
+EXAMPLE NOTES:
+
+- User said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- User repeated the same message again at 6:59 PM GMT+7. 
+- User then expressed love for KITA also at 6:59PM GMT + 7
+
+
+
+RESULT NOTES:
+
+
+==========
+
+- User said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7. 
+- User repeated the same message again at 6:59 PM GMT+7. 
+- User then expressed love for KITA also at 6:59PM and 7:01PM GMT + 7

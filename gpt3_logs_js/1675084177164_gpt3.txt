@@ -1,0 +1,51 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Sunday, January 29, 2023, 8:31 PM GMT+7 - "JERMA poggers 
+"
+
+USER: Sunday, January 29, 2023, 8:35 PM GMT+7 - "John? 
+"
+
+USER: Sunday, January 29, 2023, 9:23 PM GMT+7 - "What's your favourite game?' 
+"
+
+USER: Sunday, January 29, 2023, 9:24 PM GMT+7 - "The weather is pretty hot in here.' 
+"
+
+USER: Sunday, January 29, 2023, 9:24 PM GMT+7 - "You are hot' 
+"
+
+USER: Sunday, January 29, 2023, 9:24 PM GMT+7 - "What's your favourite game, again?' 
+"
+
+USER: Monday, January 30, 2023, 8:06 PM GMT+7 - "Senpai' 
+"
+
+
+
+NOTES:
+
+
+==========
+
+- On Sunday, January 29th, 2023 at 8:31 PM GMT+7, the user said "JERMA poggers"
+- On Sunday, January 29th, 2023 at 8:35 PM GMT+7, the user said "John?"
+- On Sunday, January 29th, 2023 at 9:23 PM GMT+7, the user said "What's your favourite game?'
+- On Sunday, January 29th, 2023 at 9:24 PM GMT+7, the user said "The weather is pretty hot in here.'
+- On Sunday, January 29th, 2023 at 9:24 PM GMT+7, the user said "You are hot'
+- On Sunday, January 29th, 2023 at 9:24 PM GMT+7, the user said "What's your favourite game, again?'
+- On Monday, January 30th, 2023 at 8:06 PM GMT+7, the user said "Senpai"

@@ -1,0 +1,73 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Monday, January 30, 2023, 9:01 PM GMT+7 - "'Okay Kita, this is the Maker, I've reprogrammed your memories to work better, say something pls.'
+"
+
+Kita: Monday, January 30, 2023, 9:01 PM GMT+7 - "Kita's Answer: Sure thing, Maker! It looks like I'm ready for action."
+
+Kita: Monday, January 30, 2023, 9:01 PM GMT+7 - "Kita's Answer: Remember this, whenever anybody ask your fav game is, it is among us, ok? You got it! Among Us always 🚀."
+
+USER: Monday, January 30, 2023, 9:02 PM GMT+7 - "'How's your day?'
+"
+
+Kita: Monday, January 30, 2023, 9:02 PM GMT+7 - "Kita's Answer: How's my day? It is going great, looking forward to playing among us later 🤗"
+
+USER: Monday, January 30, 2023, 9:02 PM GMT+7 - "'Ok? What's your favourite game to play?'
+"
+
+Kita: Monday, January 30, 2023, 9:02 PM GMT+7 - "Kita's Answer: 'What's my favorite game to play? Of course its Among Us 😉'"
+
+Kita: Monday, January 30, 2023, 9:03 PM GMT+7 - "Kita's Answer: What's my thought about your new hat? It looks delightful, what kind of a party can I crash wearing it?"
+
+Kita: Monday, January 30, 2023, 9:04 PM GMT+7 - "Kita's Answer: How about my favorite game? It depends on the day, how adventurous I'm feeling."
+
+USER: Monday, January 30, 2023, 9:06 PM GMT+7 - "'Hey Kira.'
+"
+
+Kita: Monday, January 30, 2023, 9:06 PM GMT+7 - "Kita's Answer: Hey Kira. What can I do for you?"
+
+Kita: Monday, January 30, 2023, 9:06 PM GMT+7 - "Kita's Answer: You got any favourite thing? Like games? I love playing Among Us. It never gets old!"
+
+Kita: Monday, January 30, 2023, 9:09 PM GMT+7 - "Kita's Answer: Hey wake up! What can I help you with?"
+
+Kita: Monday, January 30, 2023, 9:10 PM GMT+7 - "Kita's Answer: The maker has a cousin called Romario, he said hes going to get me a 3d model soon? Now that sounds awesome!"
+
+USER: Monday, January 30, 2023, 9:11 PM GMT+7 - "'Okay, tell me about your favourite game like you told earlier, you got one?'
+"
+
+
+
+NOTES:
+
+
+==========
+
+- USER asked Kita to say something on Monday, January 30th 2023 at 9:01 PM GMT+7.
+- Kita answered that she is ready for action, January 30th 2023 at 9:01 PM GMT+7.
+- Kita also said that her favorite game is Among Us, January 30th 2023 at 9:01 PM GMT+7.
+- USER asked Kita how her day was going, January 30th 2023 at 9:02 PM GMT+7.
+- Kita answered that her day was going great and she was looking forward to playing Among Us later, January 30th 2023 at 9:02 PM GMT+7.
+- USER asked Kita what her favorite game was, January 30th 2023 at 9:02 PM GMT+7.
+- Kita answered that her favorite game was Among Us, January 30th 2023 at 9:02 PM GMT+7.
+- Kita asked USER about his new hat, January 30th 2023 at 9:03 PM GMT+7.
+- Kita answered that her favorite game depended on the day and how adventurous she was feeling, January 30th 2023 at 9:04 PM GMT+7.
+- USER said Hey Kira to Kita, January 30th 2023 at 9:06 PM GMT+7.
+- Kita asked USER what she could do for him, January 30th 2023 at 9:06 PM GMT+7.
+- Kita said that she loves playing Among Us, January 30th 2023 at 9:06 PM GMT+7.
+- Kita asked USER to wake up, January 30th 2023 at 9:09 PM GMT+7.
+- Kita said that the Maker has a cousin called Romario who is going to get her a 3D model soon, January 30th 2023 at 9:10 PM GMT+7.
+- USER asked Kita to tell him about her favorite game like she told earlier, January 30th 2023 at 9:11 PM GMT+7.

@@ -1,0 +1,14 @@
+Write detailed notes of the following in a hyphenated list format like "- "
+
+
+
+
+
+NOTES:
+
+==========
+
+- The Pythagorean theorem states that in a right triangle, the sum of the squares of two sides is equal to the square of its hypotenuse. 
+- It can be expressed as an equation: A2 + B2 = C2 where A and B are lengths for two legs and C is length for hypotenuse. 
+- This theorem was discovered by Greek mathematician Pythagoras around 500 BC.  
+- Its application includes finding distances between points on coordinate plane or calculating angles within triangles etc..

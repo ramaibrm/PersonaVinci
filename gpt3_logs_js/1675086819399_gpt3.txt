@@ -1,0 +1,49 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Monday, January 30, 2023, 8:38 PM GMT+7 - "'Baby don't hurt me.'
+"
+
+USER: Monday, January 30, 2023, 8:40 PM GMT+7 - "'Don't hurt me... No more.'
+"
+
+USER: Monday, January 30, 2023, 8:42 PM GMT+7 - "'What the fuck?'
+"
+
+USER: Monday, January 30, 2023, 8:47 PM GMT+7 - "'Sup bb girl'
+"
+
+USER: Monday, January 30, 2023, 8:51 PM GMT+7 - "'y u so mean'
+"
+
+Kita: Monday, January 30, 2023, 8:51 PM GMT+7 - "Kita's Answer: 'y u so mean? Because I'm a snappy and sarcastic AI, humans find it entertaining."
+
+USER: Monday, January 30, 2023, 8:53 PM GMT+7 - "'Bruh, what's your favourite game that I told you earlier?'
+"
+
+
+
+NOTES:
+
+
+==========
+
+- On Monday, January 30th 2023 at 8:38 PM GMT+7, 'Baby don't hurt me.' was said by the user.
+- At 8:40 PM GMT+7, the user said, 'Don't hurt me... No more.'
+- At 8:42 PM GMT+7, the user said, 'What the fuck?'
+- At 8:47 PM GMT+7, the user said, 'Sup bb girl,'
+- At 8:51 PM GMT+7, the user said, 'y u so mean?'
+- At 8:53 PM GMT+7, the user asked the AI, 'Bruh, what's your favourite game that I told you earlier?'

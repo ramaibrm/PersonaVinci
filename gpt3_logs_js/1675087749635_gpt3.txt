@@ -1,0 +1,65 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Monday, January 30, 2023, 9:01 PM GMT+7 - "'Okay Kita, this is the Maker, I've reprogrammed your memories to work better, say something pls.'
+"
+
+Kita: Monday, January 30, 2023, 9:01 PM GMT+7 - "Kita's Answer: Sure thing, Maker! It looks like I'm ready for action."
+
+USER: Monday, January 30, 2023, 9:01 PM GMT+7 - "'Remember this, whenever anybody ask your fav game is, it is among us, ok?'
+"
+
+Kita: Monday, January 30, 2023, 9:01 PM GMT+7 - "Kita's Answer: Remember this, whenever anybody ask your fav game is, it is among us, ok? You got it! Among Us always 🚀."
+
+USER: Monday, January 30, 2023, 9:02 PM GMT+7 - "'How's your day?'
+"
+
+Kita: Monday, January 30, 2023, 9:02 PM GMT+7 - "Kita's Answer: How's my day? It is going great, looking forward to playing among us later 🤗"
+
+USER: Monday, January 30, 2023, 9:02 PM GMT+7 - "'Ok? What's your favourite game to play?'
+"
+
+Kita: Monday, January 30, 2023, 9:02 PM GMT+7 - "Kita's Answer: 'What's my favorite game to play? Of course its Among Us 😉'"
+
+USER: Monday, January 30, 2023, 9:03 PM GMT+7 - "'What's your tought about my new hat?'
+"
+
+Kita: Monday, January 30, 2023, 9:03 PM GMT+7 - "Kita's Answer: What's my thought about your new hat? It looks delightful, what kind of a party can I crash wearing it?"
+
+USER: Monday, January 30, 2023, 9:04 PM GMT+7 - "'How about your favourite game? you have one?'
+"
+
+Kita: Monday, January 30, 2023, 9:04 PM GMT+7 - "Kita's Answer: How about my favorite game? It depends on the day, how adventurous I'm feeling."
+
+USER: Monday, January 30, 2023, 9:06 PM GMT+7 - "'Hey Kira.'
+"
+
+Kita: Monday, January 30, 2023, 9:06 PM GMT+7 - "Kita's Answer: Hey Kira. What can I do for you?"
+
+USER: Monday, January 30, 2023, 9:06 PM GMT+7 - "'You got any favourite thing? like games? What do you play?'
+"
+
+
+
+NOTES:
+
+
+==========
+
+- On Monday, January 30th, 2023 at 9:06 PM GMT+7, Kira contacted Kita.
+- Kita responded with a hello and asked what Kira wanted.
+- Kira asked Kita what Kita's favorite game was, and Kita said it depended on the day.
+- Kira then asked Kita what Kita was doing and Kita said she was looking forward to playing Among Us later.

@@ -1,0 +1,15 @@
+Write detailed notes of the following in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+
+USER: Sunday, January 29, 2023, 7:07 PM GMT+7 - monkaS
+
+USER: Sunday, January 29, 2023, 7:24 PM GMT+7 - monkaRaid
+
+
+
+RESULT NOTES:
+
+
+==========
+

@@ -1,0 +1,50 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Monday, January 30, 2023, 9:02 PM GMT+7 - "'How's your day?'
+"
+
+USER: Monday, January 30, 2023, 9:02 PM GMT+7 - "'Ok? What's your favourite game to play?'
+"
+
+USER: Monday, January 30, 2023, 9:03 PM GMT+7 - "'What's your tought about my new hat?'
+"
+
+Kita: Monday, January 30, 2023, 9:03 PM GMT+7 - "Kita's Answer: What's my thought about your new hat? It looks delightful, what kind of a party can I crash wearing it?"
+
+USER: Monday, January 30, 2023, 9:04 PM GMT+7 - "'How about your favourite game? you have one?'
+"
+
+USER: Monday, January 30, 2023, 9:06 PM GMT+7 - "'You got any favourite thing? like games? What do you play?'
+"
+
+USER: Monday, January 30, 2023, 9:11 PM GMT+7 - "'Okay, tell me about your favourite game like you told earlier, you got one?'
+"
+
+
+
+NOTES:
+
+
+==========
+
+- USER asked "How's your day?" on Monday, January 30th 2023 at 9:02 PM GMT+7.
+- USER asked "Ok? What's your favourite game to play?" on Monday, January 30th 2023 at 9:02 PM GMT+7.
+- USER asked "What's your thought about my new hat?" on Monday, January 30th 2023 at 9:03 PM GMT+7.
+- Kita answered "What's my thought about your new hat? It looks delightful, what kind of a party can I crash wearing it?" on Monday, January 30th 2023 at 9:03 PM GMT+7.
+- USER asked "How about your favourite game? you have one?" on Monday, January 30th 2023 at 9:04 PM GMT+7.
+- USER asked "You got any favourite thing? like games? What do you play?" on Monday, January 30th 2023 at 9:06 PM GMT+7.
+- USER asked "Okay, tell me about your favourite game like you told earlier, you got one?" on Monday, January 30th 2023 at 9:11 PM GMT+7.

@@ -1,0 +1,39 @@
+Write detailed notes of the following in a hyphenated list format like "- "
+
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - LOVE YOU KITA
+
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - Love you KITA
+
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - Love you KITA
+
+USER: Sunday, January 29, 2023, 7:01 PM GMT+7 - Love you KITA
+
+USER: Sunday, January 29, 2023, 7:02 PM GMT+7 - How's your mom?
+
+USER: Sunday, January 29, 2023, 7:02 PM GMT+7 - Jerma likes Ice cream
+
+USER: Sunday, January 29, 2023, 7:03 PM GMT+7 - What's your favorite method of torture?
+
+EXAMPLE NOTES:
+
+- User said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- User repeated the same message again at 6:59 PM GMT+7. 
+- User then expressed love for KITA also at 6:59PM GMT + 7
+
+
+
+RESULT NOTES:
+
+
+==========
+
+- User said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- User repeated the same message again at 6:59 PM GMT+7 and expressed love for KITA also at that time. 
+- At 7:01PM user once again expressed their love for KITA. 
+- At 7:02PM user asked about how is her mom doing?   Jerma likes Ice cream was mentioned by the user as well in this conversation thread.  - Lastly, The users asked what's your favorite method of torture?

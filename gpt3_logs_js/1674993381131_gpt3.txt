@@ -1,0 +1,15 @@
+Write detailed notes of the following in a hyphenated list format like "- ", if the user asked or stated to other person's without specifying the subject/person then replace the subject/person with "Kita", this is a list of question and statements dont put any answer.
+
+
+
+
+
+NOTES:
+
+==========
+
+- Kita asked what time the meeting is?
+- Kita suggested to have a virtual team lunch. 
+- Kita mentioned that they need help with their project. 
+-KIta said it would be great if everyone could join in for brainstorming session tomorrow morning.  
+-KIta inquired about how much progress has been made on the task assigned last week.

@@ -1,0 +1,51 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Sunday, January 29, 2023, 8:28 PM GMT+7 - "john really loves ice cream
+"
+
+USER: Sunday, January 29, 2023, 8:30 PM GMT+7 - "JERMA RAID! 
+"
+
+USER: Sunday, January 29, 2023, 8:31 PM GMT+7 - "JERMA poggers 
+"
+
+USER: Sunday, January 29, 2023, 8:34 PM GMT+7 - "John loves ice cream so much 
+"
+
+USER: Sunday, January 29, 2023, 8:35 PM GMT+7 - "John? 
+"
+
+KITA: Sunday, January 29, 2023, 9:17 PM GMT+7 - "Kita's Mood: Snarky
+Kita's Answer: What do you think? Maybe I'll let it in, maybe not..."
+
+USER: Sunday, January 29, 2023, 9:23 PM GMT+7 - "What's your favourite game?' 
+"
+
+
+
+NOTES:
+
+
+==========
+
+- On Sunday, January 29th 2023 at 8:28 PM GMT+7, "john really loves ice cream" was said by the user.
+- At 8:30 PM GMT+7, "JERMA RAID!" was said by the user.
+- At 8:31 PM GMT+7, "JERMA poggers" was said by the user.
+- At 8:34 PM GMT+7, "John loves ice cream so much" was said by the user.
+- At 8:35 PM GMT+7, "John?" was said by the user.
+- At 9:17 PM GMT+7, "Kita's Mood: Snarky" was said by the user.
+- At 9:23 PM GMT+7, "What's your favourite game?' was said by the user.

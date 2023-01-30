@@ -1,0 +1,48 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Sunday, January 29, 2023, 9:08 PM GMT+7 - "Can I put my huge usb stick into your port holes? 
+"
+
+USER: Sunday, January 29, 2023, 9:09 PM GMT+7 - "Can I put my huge usb stick into your port holes? 
+"
+
+USER: Monday, January 30, 2023, 8:03 PM GMT+7 - "Can I put my USB stick into your port holes?' 
+"
+
+USER: Monday, January 30, 2023, 8:05 PM GMT+7 - "Can I put my USB stick into your port holes?' 
+"
+
+USER: Monday, January 30, 2023, 8:05 PM GMT+7 - "Can I put my huge USB stick into your port holes?' 
+"
+
+USER: Monday, January 30, 2023, 8:33 PM GMT+7 - "'Can I put my huge USB sticks into your juicy port holes?'
+"
+
+USER: Monday, January 30, 2023, 8:43 PM GMT+7 - "'Can I put my huge usb stick into your juicy port holes?'
+"
+
+
+
+NOTES:
+
+
+==========
+
+- On Monday, January 30th, 2023 at 8:03 PM GMT+7, the user asked if they could put a USB stick into the port holes. 
+- At 8:05 PM GMT+7, the user asked if they could put a USB stick into the port holes again. 
+- At 8:33 PM GMT+7, the user asked if they could put their huge USB sticks into the port holes. 
+- At 8:43 PM GMT+7, the user asked if they could put their huge USB sticks into the port holes again.
