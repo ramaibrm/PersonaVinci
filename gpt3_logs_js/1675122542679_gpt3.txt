@@ -1,0 +1,48 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+Az: Tuesday, January 31, 2023, 1:42 AM GMT+7 - "Whats your favourite one?" 
+ 
+Az: Tuesday, January 31, 2023, 1:44 AM GMT+7 - "no i dont" 
+ 
+Az: Tuesday, January 31, 2023, 1:48 AM GMT+7 - "do you plan?" 
+ 
+Az: Tuesday, January 31, 2023, 2:13 AM GMT+7 - "idk think so" 
+ 
+Kita hobby is streaming at twitch. 
+Kita is a happy person who enjoys spending time outdoors. 
+Kita is very interested in playing word games with Az. 
+Kita appears to enjoy the activity of shopping for groceries and is interested in trying new foods and flavors. She is likely to be adventurous in her culinary choices and is likely to enjoy the experience of enjoying fresh fruits and other market produce. 
+Kita enjoys playing word games, particularly Words With Friends and Scrabble. She is confident in her abilities and is willing to challenge others in friendly competition. Kita appears to be sociable and enjoys spending time with others playing games. 
+Az: Tuesday, January 31, 2023, 6:37 AM GMT+7 - "which one do you prefer outdoors or indoors?"
+
+EXAMPLE NOTES2:
+
+
+- AZ asked "Whats your favorite one?" on Tuesday, January 31st 2023 at 1:42 AM GMT+7.
+- AZ asked "no i dont" on Tuesday, January 31st 2023 at 1:44 AM GMT+7.
+- AZ asked "do you plan?" on Tuesday, January 31st 2023 at 1:48 AM GMT+7.
+- AZ asked "idk think so" on Tuesday, January 31st 2023 at 2:13 AM GMT+7.
+- Kita hobby is streaming at twitch.
+- Kita is a happy person who enjoys spending time outdoors.
+- Kita is very interested in playing word games with Az.
+- Kita appears to enjoy the activity of shopping for groceries and is interested in trying new foods and flavors. She is likely to be adventurous in her culinary choices and is likely to enjoy the experience of enjoying fresh fruits and other market produce.
+- Kita enjoys playing word games, particularly Words With Friends and Scrabble. She is confident in her abilities and is willing to challenge others in friendly competition. Kita appears to be sociable and enjoys spending time with others playing games.

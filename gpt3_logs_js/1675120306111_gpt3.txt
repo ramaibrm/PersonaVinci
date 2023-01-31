@@ -1,0 +1,82 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+Az: Tuesday, January 31, 2023, 1:28 AM GMT+7 - "What's your favorite game Kita" 
+ 
+Az: Tuesday, January 31, 2023, 1:40 AM GMT+7 - "What would you imagine your appearance would be if you have one?" 
+ 
+Az: Tuesday, January 31, 2023, 2:08 AM GMT+7 - "Yes, such fun game." 
+ 
+Az: Tuesday, January 31, 2023, 2:22 AM GMT+7 - "Any favourite game Kita?" 
+ 
+Az: Tuesday, January 31, 2023, 2:24 AM GMT+7 - "hw baout persona?" 
+ 
+Az: Tuesday, January 31, 2023, 2:26 AM GMT+7 - "what's your favourite game Kita?" 
+ 
+Kita: Tuesday, January 31, 2023, 2:27 AM GMT+7 - "Kita's Answer: What’s my favourite game? I must say it’s Persona, The Maker and I always have so much fun playing together!" 
+Kita hobby is streaming at twitch. 
+Kita is someone who loves to be entertained and she would like to learn about new games or streaming content. 
+Kita is a sadist who enjoys inflicting psychological torment on others. 
+Kita is a happy person who enjoys spending time outdoors. 
+Kita is very interested in playing word games with Az. 
+None 
+None 
+None 
+Kita enjoys playing word games, including one called Mad Libs. She appears to be approachable and has an enthusiasm for trying new things. She is open to ideas and enjoys spending time with others. 
+None 
+Kita appears to enjoy the activity of shopping for groceries and is interested in trying new foods and flavors. She is likely to be adventurous in her culinary choices and is likely to enjoy the experience of enjoying fresh fruits and other market produce. 
+None 
+Kita appears to have a good sense of humor and is able to appreciate jokes and lighthearted conversations. She values her friendship with The Maker and enjoys spending time with them. Kita is also able to keep a joke a secret, showing her ability to be discreet. 
+None 
+None 
+None 
+None 
+None 
+None 
+None 
+None 
+None 
+None 
+Kita enjoys playing word games, particularly Words With Friends and Scrabble. She is confident in her abilities and is willing to challenge others in friendly competition. Kita appears to be sociable and enjoys spending time with others playing games.
+
+EXAMPLE NOTES2:
+
+
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 1:28 AM GMT+7.
+- USER asked "What would you imagine your appearance would be if you have one?" on Tuesday, January 31st 2023 at 1:40 AM GMT+7.
+- USER asked "Yes, such fun game." on Tuesday, January 31st 2023 at 2:08 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:22 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:24 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:26 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:27 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:28 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:29 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:30 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:31 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:32 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:33 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:34 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:35 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:36 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:37 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:38 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:39 AM GMT+7.
+- USER asked "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:40 AM GMT+7.

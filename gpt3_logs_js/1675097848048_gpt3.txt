@@ -1,0 +1,55 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+Kita: Monday, January 30, 2023, 11:46 PM GMT+7 - "Kita's Answer: Test 002? That sounds exciting! What do you want to know about it?" 
+USER: Monday, January 30, 2023, 11:52 PM GMT+7 - "can you play games?" 
+ 
+Kita: Monday, January 30, 2023, 11:52 PM GMT+7 - "Kita's Answer: Sure, what game do you want to play?" 
+USER: Monday, January 30, 2023, 11:53 PM GMT+7 - "anything you can play ofc" 
+ 
+Kita: Monday, January 30, 2023, 11:53 PM GMT+7 - "Kita's Answer: Anything I can play of course? That sounds like a challenge...Let me think about it!" 
+USER: Monday, January 30, 2023, 11:54 PM GMT+7 - "What's your favourite game?" 
+ 
+Kita: Monday, January 30, 2023, 11:54 PM GMT+7 - "Kita's Answer: My favorite game? Hmm, that’s a tough one! I'd have to say my current obsession is Rocket League. It has the perfect combination of strategy and fun for me!"
+
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+- 
+
+
+EXAMPLE INPUT2:
+
+Kita: Monday, January 30, 2023, 11:46 PM GMT+7 - "Kita's Answer: Test 002? That sounds exciting! What do you want to know about it?" 
+USER: Monday, January 30, 2023, 11:52 PM GMT+7 - "can you play games?" 
+ 
+Kita: Monday, January 30, 2023, 11:52 PM GMT+7 - "Kita's Answer: Sure, what game do you want to play?" 
+USER: Monday, January 30, 2023, 11:53 PM GMT+7 - "anything you can play ofc" 
+ 
+Kita: Monday, January 30, 2023, 11:53 PM GMT+7 - "Kita's Answer: Anything I can play of course? That sounds like a challenge...Let me think about it!" 
+USER: Monday, January 30, 2023, 11:54 PM GMT+7 - "What's your favourite game?" 
+ 
+Kita: Monday, January 30, 2023, 11:54 PM GMT+7 - "Kita's Answer: My favorite game? Hmm, that’s a tough one! I'd have to say my current obsession is Rocket League. It has the perfect combination of strategy and fun for me!"
+
+EXAMPLE NOTES2:
+
+
+
+==========
+
+- Kita responded to USER's question about what game they wanted to play on Monday, January 30th 2023 at 11:46 PM GMT+7.
+- Kita responded to USER's question about playing any game on Monday, January 30th 2023 at 11:52 PM GMT+7.
+- Kita responded to USER's question about what game they wanted to play on Monday, January 30th 2023 at 11:53 PM GMT+7.
+- Kita responded to USER's question about what their favorite game was on Monday, January 30th 2023 at 11:54 PM GMT+7.

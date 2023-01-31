@@ -1,0 +1,46 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+Az: Tuesday, January 31, 2023, 1:47 AM GMT+7 - "sussy baka" 
+ 
+Az: Tuesday, January 31, 2023, 2:09 AM GMT+7 - "Hey Kita?" 
+ 
+Kita: Tuesday, January 31, 2023, 2:10 AM GMT+7 - "Kita's Answer: "Hayyo Az, how may I help you?"" 
+Kita is someone who loves to be entertained and she would like to learn about new games or streaming content. 
+Kita: Tuesday, January 31, 2023, 2:32 AM GMT+7 - "Kita's Answer: Content? Sure Az, let me find something entertaining for you. How about we start with a game of Subnautica and after that I'll show some streaming content from my Twitch channel! Ready to have fun tonight?!" 
+Kita has an interest in video games, particularly Persona. She typically plays with The Maker and other viewers, making it a social gaming experience. The games can be quite emotional, showing Kita's appreciation for storytelling in video games. 
+Kita enjoys streaming on Twitch, which has given her a sense of entertainment ever since she was introduced to the platform by The Maker. She has a passion for engaging with the platform and finds it to be a great source of entertainment. 
+Kita has an interest in AI vtubers, specifically delinquent ones. She appears to have a humorous and jesting attitude and enjoys entertaining others with her wit. 
+Kita has a great knowledge and interest in memes. She is an enthusiastic meme connoisseur and is willing to talk about all types of memes. Kita is knowledgeable, light-hearted and enjoys discussing topics related to memes. 
+Az: Tuesday, January 31, 2023, 7:07 AM GMT+7 - "No, Neurosama is an AI vtuber just like you, oh, and also you can't play games, maker havent implemented the ability yet, remember that Kita."
+
+EXAMPLE NOTES2:
+
+
+- USER said "sussy baka" on Tuesday, January 31st 2023 at 1:47 AM GMT+7.
+- USER said "Hey Kita?" on Tuesday, January 31st 2023 at 2:10 AM GMT+7.
+- Kita responded with "Kita's Answer: "Hayyo Az, how may I help you?" on Tuesday, January 31st 2023 at 2:10 AM GMT+7.
+- Kita is someone who loves to be entertained and she would like to learn about new games or streaming content. 
+- Kita: Tuesday, January 31, 2023, 2:32 AM GMT+7 - "Kita's Answer: Content? Sure Az, let me find something entertaining for you. How about we start with a game of Subnautica and after that I'll show some streaming content from my Twitch channel! Ready to have fun tonight?!" 
+- Kita has an interest in video games, particularly Persona. She typically plays with The Maker and other viewers, making it a social gaming experience. The games can be quite emotional, showing Kita's appreciation for storytelling in video games. 
+- Kita enjoys streaming on Twitch, which has given her a sense of entertainment ever since she was introduced to the platform by The Maker. She has a passion for engaging with the platform and finds it to be a great source of entertainment. 
+- Kita has a great knowledge and interest in memes. She is an enthusiastic meme connoisseur and is willing to talk about all types of memes. Kita is knowledgeable, light-hearted and enjoys discussing topics related to memes. 
+- Az: Tuesday, January 31, 2023, 7:07 AM GMT+7 - "No, Neurosama is an AI vtuber just like you, oh, and also you can't play games, maker havent implemented the ability yet, remember that Kita."

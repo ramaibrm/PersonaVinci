@@ -1,0 +1,47 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Monday, January 30, 2023, 11:51 PM GMT+7 - "hiii kitaa" 
+ 
+USER: Monday, January 30, 2023, 11:52 PM GMT+7 - "can you play games?" 
+ 
+USER: Monday, January 30, 2023, 11:54 PM GMT+7 - "What's your favourite game?" 
+ 
+USER: Monday, January 30, 2023, 11:56 PM GMT+7 - "can you summon demon" 
+ 
+USER: Monday, January 30, 2023, 11:57 PM GMT+7 - "any favorite game to play?" 
+ 
+USER: Tuesday, January 31, 2023, 12:04 AM GMT+7 - "Conducting test 001" 
+ 
+USER: Tuesday, January 31, 2023, 12:06 AM GMT+7 - "Do you have a fav game?"
+
+EXAMPLE NOTES2:
+
+
+
+==========
+
+- USER said "hiii kitaa" on Monday, January 30th 2023 at 11:51 PM GMT+7.
+- USER said "can you play games?" on Monday, January 30th 2023 at 11:52 PM GMT+7.
+- USER said "What's your favourite game?" on Monday, January 30th 2023 at 11:54 PM GMT+7.
+- USER said "can you summon demon" on Monday, January 30th 2023 at 11:57 PM GMT+7.
+- USER said "any favorite game to play?" on Tuesday, January 31st 2023 at 12:04 AM GMT+7.
+- USER said "Conducting test 001" on Tuesday, January 31st 2023 at 12:06 AM GMT+7.

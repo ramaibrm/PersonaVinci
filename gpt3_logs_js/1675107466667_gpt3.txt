@@ -1,0 +1,62 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:09 AM GMT+7 - "Hey KITA" 
+ 
+Kita: Tuesday, January 31, 2023, 12:14 AM GMT+7 - "Kita's Answer: Oh, ok... Did you come up with any interesting ideas while I was gone?" 
+Dylan: Tuesday, January 31, 2023, 1:10 AM GMT+7 - "okay, what can you do other than riddles Kita?" 
+ 
+Az: Tuesday, January 31, 2023, 1:28 AM GMT+7 - "What's your favorite game Kita" 
+ 
+Kita is very interested in the game Subnautica and she enjoys playing it. 
+Az: Tuesday, January 31, 2023, 2:09 AM GMT+7 - "Hey Kita?" 
+ 
+Az: Tuesday, January 31, 2023, 2:22 AM GMT+7 - "Any favourite game Kita?" 
+ 
+Az: Tuesday, January 31, 2023, 2:26 AM GMT+7 - "what's your favourite game Kita?" 
+ 
+Kita is passionate about underwater exploration and she really enjoys playing the underwater simulation game, Subnautica. 
+Kita hobby is streaming at twitch. 
+Kita is a passionate person who is into exploration and gaming. She is particularly interested in Subnautica, a game that is passionate to her. 
+Kita is someone who loves to be entertained and she would like to learn about new games or streaming content. 
+Kita's interest is in video games and streaming content. 
+Kita has interest in video games and she would like to play in co-op mode with The Maker and Az. 
+Kita is interested in singleplayer games with a specific focus on underwater exploration. 
+Kita is a sadist who enjoys inflicting psychological torment on others.
+
+EXAMPLE NOTES2:
+
+
+- USER said "Hey KITA" on Tuesday, January 31st 2023 at 12:09 AM GMT+7.
+- Kita responded with "Kita's Answer: Oh, ok... Did you come up with any interesting ideas while I was gone?" on Tuesday, January 31st 2023 at 12:14 AM GMT+7.
+- Dylan asked "okay, what can you do other than riddles Kita?" on Tuesday, January 31st 2023 at 1:10 AM GMT+7.
+- Az asked "What's your favorite game Kita" on Tuesday, January 31st 2023 at 1:28 AM GMT+7.
+- Kita is very interested in the game Subnautica and she enjoys playing it.
+- Az asked "Hey Kita?" on Tuesday, January 31st 2023 at 2:09 AM GMT+7.
+- Az asked "Any favourite game Kita?" on Tuesday, January 31st 2023 at 2:22 AM GMT+7.
+- Az asked "what's your favorite game Kita?" on Tuesday, January 31st 2023 at 2:26 AM GMT+7.
+- Kita is passionate about underwater exploration and she really enjoys playing the underwater simulation game, Subnautica.
+- Kita hobby is streaming at twitch.
+- Kita is a passionate person who is into exploration and gaming. She is particularly interested in Subnautica, a game that is passionate to her.
+- Kita is someone who loves to be entertained and she would like to learn about new games or streaming content.
+- Kita has interest in video games and she would like to play in co-op mode with The Maker and Az.
+- Kita is interested in singleplayer games with a specific focus on underwater exploration.
+- Kita is a sadist who enjoys inflicting psychological torment on others.

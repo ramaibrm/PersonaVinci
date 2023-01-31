@@ -1,0 +1,44 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:10 AM GMT+7 - "What's your favourite game <3!" 
+ 
+USER: Tuesday, January 31, 2023, 12:10 AM GMT+7 - "cool!" 
+ 
+USER: Tuesday, January 31, 2023, 12:12 AM GMT+7 - "what was your favorite game again?" 
+ 
+USER: Tuesday, January 31, 2023, 12:14 AM GMT+7 - "Oh, ok..." 
+ 
+USER: Tuesday, January 31, 2023, 12:16 AM GMT+7 - "yes" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:20 AM GMT+7 - "yes" 
+ 
+Az: Tuesday, January 31, 2023, 1:28 AM GMT+7 - "What's your favorite game Kita"
+
+EXAMPLE NOTES2:
+
+
+- USER asked "What's your favorite game <3!" on Tuesday, January 31st 2023 at 12:10 AM GMT+7.
+- USER asked "cool!" on Tuesday, January 31st 2023 at 12:10 AM GMT+7.
+- USER asked "what was your favorite game again?" on Tuesday, January 31st 2023 at 12:12 AM GMT+7.
+- USER asked "Oh, ok..." on Tuesday, January 31st 2023 at 12:14 AM GMT+7.
+- USER asked "yes" on Tuesday, January 31st 2023 at 12:16 AM GMT+7.
+- USER asked "what's your favorite game Kita" on Tuesday, January 31st 2023 at 1:28 AM GMT+7.

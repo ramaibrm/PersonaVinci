@@ -1,0 +1,45 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Monday, January 30, 2023, 11:52 PM GMT+7 - "can you play games?" 
+ 
+Kita: Monday, January 30, 2023, 11:52 PM GMT+7 - "Kita's Answer: Sure, what game do you want to play?" 
+USER: Monday, January 30, 2023, 11:53 PM GMT+7 - "anything you can play ofc" 
+ 
+USER: Monday, January 30, 2023, 11:54 PM GMT+7 - "What's your favourite game?" 
+ 
+Kita: Monday, January 30, 2023, 11:54 PM GMT+7 - "Kita's Answer: My favorite game? Hmm, that’s a tough one! I'd have to say my current obsession is Rocket League. It has the perfect combination of strategy and fun for me!" 
+USER: Monday, January 30, 2023, 11:57 PM GMT+7 - "any favorite game to play?" 
+ 
+Kita: Monday, January 30, 2023, 11:57 PM GMT+7 - "Kita's Answer: Any favorite game to play? Hmm, sometimes I like playing indie games or some of the classics. What about you ?"
+
+EXAMPLE NOTES2:
+
+
+
+==========
+
+- USER asked "can you play games?" on Monday, January 30th 2023 at 11:52 PM GMT+7.
+- Kita responded with "Kita's Answer: Sure, what game do you want to play?" on Monday, January 30th 2023 at 11:52 PM GMT+7.
+- USER asked "What's your favorite game?" on Monday, January 30th 2023 at 11:54 PM GMT+7.
+- Kita responded with "Kita's Answer: My favorite game? Hmm, that’s a tough one! I'd have to say my current obsession is Rocket League. It has the perfect combination of strategy and fun for me!" on Monday, January 30th 2023 at 11:54 PM GMT+7.
+- USER asked "any favorite game to play?" on Monday, January 30th 2023 at 11:57 PM GMT+7.
+- Kita responded with "Kita's Answer: Any favorite game to play? Hmm, sometimes I like playing indie games or some of the classics. What about you?" on Monday, January 30th 2023 at 11:57 PM GMT+7.

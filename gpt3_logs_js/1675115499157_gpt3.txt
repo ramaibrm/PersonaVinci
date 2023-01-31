@@ -1,0 +1,64 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:10 AM GMT+7 - "cool!" 
+ 
+USER: Tuesday, January 31, 2023, 12:14 AM GMT+7 - "Oh, ok..." 
+ 
+USER: Tuesday, January 31, 2023, 12:27 AM GMT+7 - "HAHAHA" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:36 AM GMT+7 - "oh haha, nice one Kita, you're very smart." 
+ 
+Dylan: Tuesday, January 31, 2023, 1:16 AM GMT+7 - "okok" 
+ 
+Az: Tuesday, January 31, 2023, 1:41 AM GMT+7 - "okay nicee" 
+ 
+Az: Tuesday, January 31, 2023, 2:08 AM GMT+7 - "Yes, such fun game." 
+ 
+Kita hobby is streaming at twitch. 
+Kita is someone who loves to be entertained and she would like to learn about new games or streaming content. 
+Kita is a sadist who enjoys inflicting psychological torment on others. 
+Kita is a happy person who enjoys spending time outdoors. 
+Kita is very interested in playing word games with Az. 
+None 
+None 
+None 
+Kita enjoys playing word games, including one called Mad Libs. She appears to be approachable and has an enthusiasm for trying new things. She is open to ideas and enjoys spending time with others. 
+None 
+Kita appears to enjoy the activity of shopping for groceries and is interested in trying new foods and flavors. She is likely to be adventurous in her culinary choices and is likely to enjoy the experience of enjoying fresh fruits and other market produce. 
+None
+
+EXAMPLE NOTES2:
+
+
+- USER said "cool!" on Tuesday, January 31st 2023 at 12:10 AM GMT+7.
+- USER said "Oh, ok..." on Tuesday, January 31st 2023 at 12:14 AM GMT+7.
+- USER said "HAHAHA" on Tuesday, January 31st 2023 at 12:27 AM GMT+7.
+- Dylan responded with "oh haha, nice one Kita, you're very smart." on Tuesday, January 31st 2023 at 12:36 AM GMT+7.
+- Dylan responded with "okok" on Tuesday, January 31st 2023 at 1:16 AM GMT+7.
+- Az responded with "okay nicee" on Tuesday, January 31st 2023 at 1:41 AM GMT+7.
+- Az responded with "Yes, such fun game." on Tuesday, January 31st 2023 at 2:08 AM GMT+7.
+- Kita hobby is streaming at twitch.
+- Kita is someone who loves to be entertained and she would like to learn about new games or streaming content.
+- Kita is a sadist who enjoys inflicting psychological torment on others.
+- Kita is a happy person who enjoys spending time outdoors.
+- Kita is very interested in playing word games with Az.
+- None

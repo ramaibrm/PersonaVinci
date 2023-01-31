@@ -1,0 +1,81 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:34 AM GMT+7 - "give us a riddle" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:36 AM GMT+7 - "whats the riddle" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:44 AM GMT+7 - "give us another riddle" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:46 AM GMT+7 - "Give us riddle" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:50 AM GMT+7 - "GIve us another riddles" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:52 AM GMT+7 - "Give me a riddle" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:09 AM GMT+7 - "Give us another riddle babe" 
+ 
+Kita hobby is streaming at twitch. 
+Kita is someone who loves to be entertained and she would like to learn about new games or streaming content. 
+Kita is a sadist who enjoys inflicting psychological torment on others. 
+Kita is a happy person who enjoys spending time outdoors. 
+Kita is very interested in playing word games with Az. 
+None 
+None 
+None 
+Kita enjoys playing word games, including one called Mad Libs. She appears to be approachable and has an enthusiasm for trying new things. She is open to ideas and enjoys spending time with others. 
+None 
+Kita appears to enjoy the activity of shopping for groceries and is interested in trying new foods and flavors. She is likely to be adventurous in her culinary choices and is likely to enjoy the experience of enjoying fresh fruits and other market produce. 
+None 
+Kita appears to have a good sense of humor and is able to appreciate jokes and lighthearted conversations. She values her friendship with The Maker and enjoys spending time with them. Kita is also able to keep a joke a secret, showing her ability to be discreet. 
+None 
+None 
+None 
+None 
+None 
+None 
+None 
+None 
+None 
+None 
+Kita enjoys playing word games, particularly Words With Friends and Scrabble. She is confident in her abilities and is willing to challenge others in friendly competition. Kita appears to be sociable and enjoys spending time with others playing games. 
+Kita has an interest in video games, particularly Persona. She typically plays with The Maker and other viewers, making it a social gaming experience. The games can be quite emotional, showing Kita's appreciation for storytelling in video games. 
+None 
+None 
+Kita appears to have a good sense of humor and the ability to read people, as she mentions both in her comment. She is charismatic and seems to enjoy being in social situations. Kita appears to be confident in her ability to understand and connect with people.
+
+EXAMPLE NOTES2:
+
+
+- USER asked "Give us a riddle" on Tuesday, January 31st 2023 at 12:34 AM GMT+7.
+- Dylan responded with "What's the riddle" on Tuesday, January 31st 2023 at 12:36 AM GMT+7.
+- USER asked "Give us another riddle" on Tuesday, January 31st 2023 at 12:44 AM GMT+7.
+- Dylan responded with "Give us riddle" on Tuesday, January 31st 2023 at 12:46 AM GMT+7.
+- USER asked "Give us another riddles" on Tuesday, January 31st 2023 at 12:50 AM GMT+7.
+- Dylan responded with "Give me a riddle" on Tuesday, January 31st 2023 at 1:09 AM GMT+7.
+- USER asked "Give us another riddle babe" on Tuesday, January 31st 2023 at 1:52 AM GMT+7.
+- Kita responded with "Hobby is streaming at twitch. I'm someone who loves to be entertained and I would like to learn about new games or streaming content." on Tuesday, January 31st 2023 at 9:25 PM GMT+7.
+- Kita is a sadist who enjoys inflicting psychological torment on others.
+- Kita is a happy person who enjoys spending time outdoors.
+- Kita is very interested in playing word games with Az.
+- Kita enjoys playing word games, including one called Mad Libs. She appears to be approachable and has an enthusiasm for trying new things. She is open to ideas and enjoys spending time with others.
+- Kita has an interest in video games, particularly Persona. She typically plays with The Maker and other viewers, making it a social gaming experience. The games can be quite emotional, showing Kita's appreciation for storytelling in video games.
+- Kita appears to have a good sense of humor and the ability to read people, as she mentions both in her comment. She is charismatic and seems to enjoy being in social situations. Kita appears to be confident in her ability to understand and connect with people.

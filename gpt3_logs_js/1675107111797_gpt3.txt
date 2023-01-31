@@ -1,0 +1,48 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:09 AM GMT+7 - "Hey KITA" 
+ 
+Kita: Tuesday, January 31, 2023, 12:10 AM GMT+7 - "Kita's Answer: Hey there! What can I do for you?" 
+USER: Tuesday, January 31, 2023, 12:28 AM GMT+7 - "give us another games" 
+ 
+USER: Tuesday, January 31, 2023, 12:30 AM GMT+7 - "Kita lets do something else" 
+ 
+Az: Tuesday, January 31, 2023, 1:28 AM GMT+7 - "What's your favorite game Kita" 
+ 
+Kita is very interested in the game Subnautica and she enjoys playing it. 
+Az: Tuesday, January 31, 2023, 2:10 AM GMT+7 - "hayyo kita?" 
+ 
+Az: Tuesday, January 31, 2023, 2:26 AM GMT+7 - "what's your favourite game Kita?" 
+ 
+Kita is passionate about underwater exploration and she really enjoys playing the underwater simulation game, Subnautica. 
+Kita hobby is streaming at twitch. 
+Kita is a passionate person who is into exploration and gaming. She is particularly interested in Subnautica, a game that is passionate to her.
+
+EXAMPLE NOTES2:
+
+
+- USER said "Hey KITA" on Tuesday, January 31st 2023 at 12:09 AM GMT+7.
+- Kita responded with "Kita's Answer: Hey there! What can I do for you?" on Tuesday, January 31st 2023 at 12:10 AM GMT+7.
+- USER said "give us another games" on Tuesday, January 31st 2023 at 12:28 AM GMT+7.
+- Kita let them do something else and said "Az: Tuesday, January 31, 2023, 1:28 AM GMT+7 - "What's your favorite game Kita?" on Tuesday, January 31st 2023 at 1:28 AM GMT+7.
+- Az asked Kita what her favorite game was on Tuesday, January 31st 2023 at 2:10 AM GMT+7.
+- Kita told Az that she is passionate about underwater exploration and she really enjoys playing the underwater simulation game, Subnautica. Kita also enjoys streaming at twitch.

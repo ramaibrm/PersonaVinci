@@ -1,0 +1,61 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:14 AM GMT+7 - "Oh, ok..." 
+ 
+USER: Tuesday, January 31, 2023, 12:22 AM GMT+7 - "Okay" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:46 AM GMT+7 - "Cows" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:14 AM GMT+7 - "okay" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:16 AM GMT+7 - "Yes im ready" 
+ 
+Kita hobby is streaming at twitch. 
+Kita is someone who loves to be entertained and she would like to learn about new games or streaming content. 
+Kita is a sadist who enjoys inflicting psychological torment on others. 
+Kita is a happy person who enjoys spending time outdoors. 
+Kita is very interested in playing word games with Az. 
+Az: Tuesday, January 31, 2023, 4:39 AM GMT+7 - "Sure" 
+ 
+Az: Tuesday, January 31, 2023, 4:41 AM GMT+7 - "Okay, you go first." 
+ 
+None 
+None 
+None 
+Kita enjoys playing word games, including one called Mad Libs. She appears to be approachable and has an enthusiasm for trying new things. She is open to ideas and enjoys spending time with others.
+
+EXAMPLE NOTES2:
+
+
+- USER said "Oh, ok..." on Tuesday, January 31st 2023 at 12:14 AM GMT+7.
+- USER said "Okay" on Tuesday, January 31st 2023 at 12:22 AM GMT+7.
+- Dylan responded with "Cows" on Tuesday, January 31st 2023 at 12:46 AM GMT+7.
+- Dylan responded with "okay" on Tuesday, January 31st 2023 at 1:14 AM GMT+7.
+- Dylan responded with "Yes im ready" on Tuesday, January 31st 2023 at 1:16 AM GMT+7.
+- Kita hobby is streaming at twitch.
+- Kita is someone who loves to be entertained and she would like to learn about new games or streaming content.
+- Kita is a sadist who enjoys inflicting psychological torment on others.
+- Kita is a happy person who enjoys spending time outdoors.
+- Kita is very interested in playing word games with Az.
+- Az: Tuesday, January 31st 2023 at 4:39 AM GMT+7.
+- Az: Tuesday, January 31st 2023 at 4:41 AM GMT+7.
+- None.

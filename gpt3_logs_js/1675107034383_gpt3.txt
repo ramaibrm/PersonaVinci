@@ -1,0 +1,50 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:12 AM GMT+7 - "what was your favorite game again?" 
+ 
+USER: Tuesday, January 31, 2023, 12:27 AM GMT+7 - "what?" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:44 AM GMT+7 - "what" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:50 AM GMT+7 - "what" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:09 AM GMT+7 - "what?" 
+ 
+Az: Tuesday, January 31, 2023, 1:42 AM GMT+7 - "Whats your favourite one?" 
+ 
+Kita is very interested in the game Subnautica and she enjoys playing it. 
+Kita is passionate about underwater exploration and she really enjoys playing the underwater simulation game, Subnautica. 
+Az: Tuesday, January 31, 2023, 2:29 AM GMT+7 - "what's your hobby?" 
+ 
+Kita likes to explore new coffee places.
+
+EXAMPLE NOTES2:
+
+
+- USER asked "what was your favorite game again?" on Tuesday, January 31st 2023 at 12:12 AM GMT+7.
+- USER asked "what?" on Tuesday, January 31st 2023 at 12:27 AM GMT+7.
+- Dylan responded with "what" on Tuesday, January 31st 2023 at 12:44 AM GMT+7.
+- Dylan responded with "what" on Tuesday, January 31st 2023 at 12:50 AM GMT+7.
+- Dylan responded with "what" on Tuesday, January 31st 2023 at 1:09 AM GMT+7.
+- Az responded with "Whats your favourite one?" on Tuesday, January 31st 2023 at 1:42 AM GMT+7.
+- Kita is very interested in the game Subnautica and she enjoys playing it.
+- Kita is passionate about underwater exploration and she really enjoys playing the underwater simulation game, Subnautica.

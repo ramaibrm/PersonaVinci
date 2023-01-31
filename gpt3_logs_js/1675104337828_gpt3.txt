@@ -1,0 +1,45 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:22 AM GMT+7 - "Okay" 
+ 
+USER: Tuesday, January 31, 2023, 12:27 AM GMT+7 - "HAHAHA" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:35 AM GMT+7 - "What" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:46 AM GMT+7 - "Cows" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:54 AM GMT+7 - "sowwy" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:13 AM GMT+7 - "A chair" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:21 AM GMT+7 - "ok"
+
+EXAMPLE NOTES2:
+
+
+- USER said "Okay" on Tuesday, January 31st 2023 at 12:22 AM GMT+7.
+- USER said "HAHAHA" on Tuesday, January 31st 2023 at 12:27 AM GMT+7.
+- Dylan responded with "What" on Tuesday, January 31st 2023 at 12:35 AM GMT+7.
+- Dylan responded with "Cows" on Tuesday, January 31st 2023 at 12:46 AM GMT+7.
+- Dylan responded with "sowwy" on Tuesday, January 31st 2023 at 12:54 AM GMT+7.
+- Dylan responded with "A chair" on Tuesday, January 31st 2023 at 1:13 AM GMT+7.
+- Dylan responded with "ok" on Tuesday, January 31st 2023 at 1:21 AM GMT+7.

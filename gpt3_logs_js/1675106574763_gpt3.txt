@@ -1,0 +1,48 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:10 AM GMT+7 - "What's your favourite game <3!" 
+ 
+Kita: Tuesday, January 31, 2023, 12:10 AM GMT+7 - "Kita's Answer: My favorite game? That would be Overwatch." 
+USER: Tuesday, January 31, 2023, 12:12 AM GMT+7 - "what was your favorite game again?" 
+ 
+Kita: Tuesday, January 31, 2023, 12:12 AM GMT+7 - "Kita's Answer: What was my favorite game again? Ah yes! It’s Overwatch for sure." 
+Az: Tuesday, January 31, 2023, 1:28 AM GMT+7 - "What's your favorite game Kita" 
+ 
+Kita: Tuesday, January 31, 2023, 1:42 AM GMT+7 - "Kita's Answer: Favorite one of what? If you're talking about games, I must say it’s Pong! It’s a classic but The Maker and I always have so much fun playing together." 
+undefined 
+undefined 
+Az: Tuesday, January 31, 2023, 2:09 AM GMT+7 - "Hey Kita?" 
+ 
+undefined 
+undefined 
+undefined 
+undefined
+
+EXAMPLE NOTES2:
+
+
+- USER asked "What's your favorite game <3!" on Tuesday, January 31st 2023 at 12:10 AM GMT+7.
+- Kita responded with "Kita's Answer: My favorite game? That would be Overwatch." on Tuesday, January 31st 2023 at 12:10 AM GMT+7.
+- USER asked "what was your favorite game again?" on Tuesday, January 31st 2023 at 12:12 AM GMT+7.
+- Kita responded with "Kita's Answer: What was my favorite game again? Ah yes! It’s Overwatch for sure." on Tuesday, January 31st 2023 at 12:12 AM GMT+7.
+- USER asked "What's your favorite game Kita" on Tuesday, January 31st 2023 at 1:42 AM GMT+7.
+- Kita responded with "Kita's Answer: Favorite one of what? If you're talking about games, I must say it’s Pong! It’s a classic but The Maker and I always have so much fun playing together." on Tuesday, January 31st 2023 at 1:42 AM GMT+7.

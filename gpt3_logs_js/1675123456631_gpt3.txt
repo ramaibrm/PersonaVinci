@@ -1,0 +1,50 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+Kita hobby is streaming at twitch. 
+Az: Tuesday, January 31, 2023, 2:31 AM GMT+7 - "Give me entertainment kita" 
+ 
+Az: Tuesday, January 31, 2023, 4:39 AM GMT+7 - "Sure" 
+ 
+Az: Tuesday, January 31, 2023, 4:41 AM GMT+7 - "Okay, you go first." 
+ 
+Az: Tuesday, January 31, 2023, 4:51 AM GMT+7 - "Haha nice one." 
+ 
+Kita appears to have a good sense of humor and is able to appreciate jokes and lighthearted conversations. She values her friendship with The Maker and enjoys spending time with them. Kita is also able to keep a joke a secret, showing her ability to be discreet. 
+Az: Tuesday, January 31, 2023, 5:00 AM GMT+7 - "Is that supposed to be sarcastic?" 
+ 
+Kita appears to have a good sense of humor and the ability to read people, as she mentions both in her comment. She is charismatic and seems to enjoy being in social situations. Kita appears to be confident in her ability to understand and connect with people. 
+Kita has an appreciation for being admired and enjoys receiving compliments. She appears to be confident and secure in herself, as she takes compliments in a positive manner. 
+Kita enjoys word games and has a particular preference for Mad Libs. She enjoys the creative process of creating stories by filling in the blanks.
+
+EXAMPLE NOTES2:
+
+
+- Kita has a hobby of streaming on Twitch. 
+- On Tuesday, January 31st 2023, at 2:31 AM GMT+7, Az said "Give me entertainment kita." 
+- At 4:39 AM GMT+7, Az said "Sure." 
+- At 4:41 AM GMT+7, Az said "Okay, you go first." 
+- At 4:51 AM GMT+7, Az said "Haha nice one." 
+- Kita appears to be a good friend and enjoys spending time with The Maker. 
+- Kita is able to keep a joke a secret. 
+- Kita has a good sense of humor and is able to read people. 
+- Kita is charismatic and enjoys being in social situations. 
+- Kita is confident and secure in herself.

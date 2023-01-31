@@ -1,0 +1,56 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:12 AM GMT+7 - "what was your favorite game again?" 
+ 
+USER: Tuesday, January 31, 2023, 12:28 AM GMT+7 - "give us another games" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:16 AM GMT+7 - "no lets play another game than riddles" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:17 AM GMT+7 - "how to play" 
+ 
+Az: Tuesday, January 31, 2023, 2:08 AM GMT+7 - "Yes, such fun game." 
+ 
+Az: Tuesday, January 31, 2023, 2:28 AM GMT+7 - "Give your most most favourite game" 
+ 
+Kita hobby is streaming at twitch. 
+Kita is someone who loves to be entertained and she would like to learn about new games or streaming content. 
+Kita is a sadist who enjoys inflicting psychological torment on others. 
+Kita is a happy person who enjoys spending time outdoors. 
+Az: Tuesday, January 31, 2023, 2:40 AM GMT+7 - "What game can you play?" 
+ 
+Kita is very interested in playing word games with Az. 
+None 
+None
+
+EXAMPLE NOTES2:
+
+
+- USER asked "what was your favorite game again?" on Tuesday, January 31st 2023 at 12:12 AM GMT+7.
+- USER asked "give us another games" on Tuesday, January 31st 2023 at 12:28 AM GMT+7.
+- Dylan responded with "no lets play another game than riddles" on Tuesday, January 31st 2023 at 1:16 AM GMT+7.
+- Dylan responded with "how to play" on Tuesday, January 31st 2023 at 1:17 AM GMT+7.
+- Az responded with "Yes, such fun game." on Tuesday, January 31st 2023 at 2:08 AM GMT+7.
+- Az responded with "What game can you play?" on Tuesday, January 31st 2023 at 2:40 AM GMT+7.
+- Kita is someone who loves to be entertained and she would like to learn about new games or streaming content.
+- Kita is a sadist who enjoys inflicting psychological torment on others.
+- Kita is a happy person who enjoys spending time outdoors.
+- Az is very interested in playing word games with Kita.

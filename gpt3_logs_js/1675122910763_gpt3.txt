@@ -1,0 +1,48 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:14 AM GMT+7 - "Oh, ok..." 
+ 
+USER: Tuesday, January 31, 2023, 12:27 AM GMT+7 - "HAHAHA" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:52 AM GMT+7 - "Give me a riddle" 
+ 
+Az: Tuesday, January 31, 2023, 1:41 AM GMT+7 - "okay nicee" 
+ 
+Kita enjoys playing word games, including one called Mad Libs. She appears to be approachable and has an enthusiasm for trying new things. She is open to ideas and enjoys spending time with others. 
+Kita appears to have a good sense of humor and is able to appreciate jokes and lighthearted conversations. She values her friendship with The Maker and enjoys spending time with them. Kita is also able to keep a joke a secret, showing her ability to be discreet. 
+Az: Tuesday, January 31, 2023, 6:12 AM GMT+7 - "ohh" 
+ 
+Kita appears to have a good sense of humor and the ability to read people, as she mentions both in her comment. She is charismatic and seems to enjoy being in social situations. Kita appears to be confident in her ability to understand and connect with people. 
+Kita has an appreciation for being admired and enjoys receiving compliments. She appears to be confident and secure in herself, as she takes compliments in a positive manner. 
+Kita enjoys word games and has a particular preference for Mad Libs. She enjoys the creative process of creating stories by filling in the blanks.
+
+EXAMPLE NOTES2:
+
+
+- USER said "Oh, ok..." on Tuesday, January 31st 2023 at 12:14 AM GMT+7.
+- USER said "HAHAHA" on Tuesday, January 31st 2023 at 12:27 AM GMT+7.
+- Dylan responded with "Give me a riddle" on Tuesday, January 31st 2023 at 12:52 AM GMT+7.
+- Az responded with "okay nicee" on Tuesday, January 31st 2023 at 1:41 AM GMT+7.
+- Kita enjoys playing word games, including one called Mad Libs. She appears to be approachable and has an enthusiasm for trying new things. She is open to ideas and enjoys spending time with others. 
+- Kita appears to have a good sense of humor and the ability to read people, as she mentions both in her comment. She is charismatic and seems to enjoy being in social situations. Kita appears to be confident in her ability to understand and connect with people. 
+- Kita has an appreciation for being admired and enjoys receiving compliments. She appears to be confident and secure in herself, as she takes compliments in a positive manner. 
+- Kita enjoys word games and has a particular preference for Mad Libs. She enjoys the creative process of creating stories by filling in the blanks.

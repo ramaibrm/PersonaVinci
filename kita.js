@@ -7,6 +7,7 @@ const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 const AIChar = require('./AI_Characteristics.json')
 const { exec } = require("child_process");
+const { Worker, isMainThread, workerData, parentPort } = require("worker_threads")
 const readline = require("readline");
 
 const configuration = new Configuration({
@@ -14,6 +15,12 @@ const configuration = new Configuration({
   });
   
 const openai = new OpenAIApi(configuration);
+
+const configuration2 = new Configuration({
+  apiKey: "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"
+});
+
+const openai2 = new OpenAIApi(configuration2);
 
 async function openFile(filepath) {
     return new Promise((resolve, reject) => {
@@ -121,14 +128,51 @@ async function gpt3Embedding(content, engine = 'text-embedding-ada-002') {
 }
 
 function readPrompt () {
-    try {
-        const data = fs.readFileSync('prompt.txt', 'utf-8');
-        return data
-      } catch (err) {
-        console.error(err);
-        return err
+  try {
+      const data = fs.readFileSync('prompt.txt', 'utf-8');
+      return data
+    } catch (err) {
+      console.error(err);
+      return err
+    }
+}
+
+async function gpt3AltCompletion(prompt, engine = 'text-davinci-003', temp = 0.0, topP = 1, tokens = 800, freqPen = 0, presPen = 0, stop = ['USER:', 'RAVEN:']) {
+  let maxRetry = 5;
+  let retry = 0;
+
+  while (true) {
+      try {
+      const response = await openai2.createCompletion({
+          model: engine,
+          prompt: prompt,
+          temperature: temp, // Higher values means the model will take more risks.
+          max_tokens: tokens, // The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support 4096).
+          top_p: topP, // alternative to sampling with temperature, called nucleus sampling
+          frequency_penalty: freqPen, // Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.
+          presence_penalty: presPen, // Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.
+      });
+      console.log("Task Completed ...")
+
+      let text = response.data.choices[0].text.trim();
+      text = text.replace(/(\r\n)+/g, '\n');
+      text = text.replace(/(\t )+/g, ' ');
+      let filename = `${Date.now()}_gpt3.txt`;
+      if (!fs.existsSync('gpt3_logs_js')) {
+          fs.mkdirSync('gpt3_logs_js');
+      }
+      fs.writeFileSync(`gpt3_logs_js/${filename}`, `${prompt}\n${text}`);
+      return text;
+      } catch (oops) {
+      retry += 1;
+      if (retry >= maxRetry) {
+          return `GPT3 error: ${oops}`;
+      }
+      console.log('Error communicating with OpenAI:', oops);
+      await sleep(1000);
       }
   }
+}
 
 async function gpt3Completion(prompt, engine = 'text-curie-001', temp = 0.0, topP = 1, tokens = 800, freqPen = 0, presPen = 0, stop = ['USER:', 'RAVEN:']) {
     let maxRetry = 5;
@@ -185,6 +229,22 @@ async function gpt3Completion(prompt, engine = 'text-curie-001', temp = 0.0, top
     return result;
 }
 
+async function loadPersona() {
+  const directory = 'personality_logs';
+  const files = await fs.promises.readdir(directory);
+  const filteredFiles = files.filter((file) => path.extname(file) === '.json');
+  const result = [];
+  for (const file of filteredFiles) {
+      const filePath = path.join(directory, file);
+      const data = JSON.parse(await fs.promises.readFile(filePath, 'utf8'));
+      if (data.message != "None") {
+        result.push(data);
+      }
+  }
+  result.sort((a, b) => a.time - b.time);
+  return result;
+}
+
 async function summarizeMemories(memories) {
     memories = memories.sort((a, b) => new Date(a.time) - new Date(b.time));
     let block = '';
@@ -198,7 +258,7 @@ async function summarizeMemories(memories) {
     block = block.trim();
     let prompt = await openFile('prompt_notes.txt')
     prompt = prompt.replace('<<INPUT>>', block)
-    const notes = await gpt3Completion(prompt);
+    const notes = await gpt3Completion(prompt, 'text-curie-001', 0, 1, 1071);
     const vector = await gpt3Embedding(block);
     const info = {
       notes: notes,
@@ -209,7 +269,8 @@ async function summarizeMemories(memories) {
     };
     const filename = `notes_${Date.now()}.json`;
     await saveJson(`notes/${filename}`, info);
-    return notes;
+    // return notes;
+    parentPort.postMessage(notes);
   }
 
   const getLastMessages = (conversation, limit) => {
@@ -226,10 +287,36 @@ async function summarizeMemories(memories) {
     return output.trim();
   };
 
+async function assignPersona(message, timestamp, vector, timestring) {
+    let personaPrompt = await openFile('prompt_interest.txt')
+    personaPrompt = personaPrompt.replace('<<TEXT>>', message)
+
+    const persona = await gpt3AltCompletion(personaPrompt, 'text-davinci-003', 1.0, 1, 758);
+
+    // persona = `${viewerName}: ${timestring} - ${a}`;
+    const newUUID = uuidv4();
+    const info = {'speaker': AIChar.characterName, 'time': timestamp, 'vector': vector, 'message': persona, 'uuid': newUUID, 'timestring': timestring}
+    const filename = "persona_" + timestamp + `_${AIChar.characterName}.json`;
+    if (persona != "None") {
+      await saveJson(`personality_logs/${filename}`, info);
+    }
+}
+
+
 let mood = 'Snarky';
 let viewerName = 'Az';
 
 async function main () {
+  if (isMainThread) {
+    function asyncTaskDone() {
+      if(typeof notes != 'string') {//we want it to match
+        console.log(typeof notes, 'typeof')
+          setTimeout(() => asyncTaskDone(), 500);//wait 50 millisecnds then recheck
+      } else {
+        return true;
+      }
+    }
+    let notes = {};
     var rl = readline.createInterface({
       input: process.stdin,
       output: process.stdout
@@ -239,70 +326,103 @@ async function main () {
       const a = `"${text}" \n`
       let timestamp = Date.now();
       let vector = await gpt3Embedding(a);
-
+  
       // load conversation
       console.log("Opening Brain ...")
       const conversation = await loadConvo();
+      const traits = await loadPersona();
       let timestring = timestampToDatetime(timestamp)
+  
       let message = `${viewerName}: ${timestring} - ${a}`;
       let newUUID = uuidv4();
       let info = {'speaker': viewerName, 'time': timestamp, 'vector': vector, 'message': message, 'uuid': newUUID, 'timestring': timestring}
       let filename = "log_" + timestamp + `_${viewerName}.json`;
       await saveJson(`memories_logs/${filename}`, info);
-
+  
       // compose corpus (fetch memories, etc)
-      const memories = fetchMemories(vector, conversation, 7) // pull episodic memories
-
+      const memories = fetchMemories(vector, conversation, 5) // pull episodic memories
+      const personalities = fetchMemories(vector, traits, 5);
+  
+      memories.push(...personalities);
+  
       // Fetch declarative memories (facts, questions, events)
       console.log("Fetching Episodic Memories ...")
-      const notes = await summarizeMemories(memories)
+      // let notes = await summarizeMemories(memories)
+      const worker = new Worker(__filename, {workerData: memories});
+      worker.on("message", msg => { notes = msg });
+      worker.on("error", err => console.error(err));
 
+  
       // Get recent conversations
       const recent = getLastMessages(conversation, 5)
       let prompt = await openFile('prompt_response.txt')
+  
       let topicPrompt = await openFile('search_topic.txt')
       topicPrompt = topicPrompt.replace("<<PREVIOUS_CHAT>>", getLastMessages(conversation, 1))
+  
+      const topic = await gpt3AltCompletion(topicPrompt, 'text-davinci-003');
+      
       let rules = await openFile('AI_ResponseRule.txt')
       rules = rules.replace('<<viewer_name>>', viewerName).replace('<<time>>', timestring);
-
+  
       let expectedResponse = await openFile('AI_ExpectedResponse.txt')
 
-      const topic = await gpt3Completion(topicPrompt);
-
-      prompt = prompt.replace("<<TOPIC>>", topic).replace('<<NOTES>>', notes).replace('<<MOOD>>', mood).replace('<<EXPECTED>>', expectedResponse).replace('<<CONVERSATION>>', recent).replace('<<QUESTION>>', `${viewerName}: ${a}`).replace('<<RULE>>', rules).replace('<<persona>>', AIChar.characterPersona).replace('<<INTERVIEWER1>>', AIChar.interviewer).replace('<<AIChar>>', AIChar.characterInfo).replace('<<INTERVIEWER2>>', AIChar.interviewer).replace('<<AI1>>', AIChar.characterName).replace('<<AI2>>', AIChar.characterName);
+      async function workerTaskDone () {
+        prompt = prompt.replace("<<TOPIC>>", topic).replace('<<NOTES>>', notes).replace('<<MOOD>>', mood).replace('<<EXPECTED>>', expectedResponse).replace('<<CONVERSATION>>', recent).replace('<<QUESTION>>', `${viewerName}: ${a}`).replace('<<RULE>>', rules).replace('<<persona>>', AIChar.characterPersona).replace('<<INTERVIEWER1>>', AIChar.interviewer).replace('<<AIChar>>', AIChar.characterInfo).replace('<<INTERVIEWER2>>', AIChar.interviewer).replace('<<AI1>>', AIChar.characterName).replace('<<AI2>>', AIChar.characterName);
       
-      console.log(`${AIChar.characterName} is Thinking of an answer ...`)
-      // generate response, vectorize, save, etc
-      const output = await gpt3Completion(prompt, 'text-davinci-003', 1, 1, 356, 2, 2)
-      timestamp = Date.now();
-      vector = await gpt3Embedding(output)
-      timestring = timestampToDatetime(timestamp)
-  
-      const outputSplit = output.split('\n').filter(x => x);
-      message = `${AIChar.characterName}: ${timestring} - "${outputSplit[1]}"`;
-      info = {'speaker': `${AIChar.characterName}`, 'time': timestamp, 'vector': vector, 'message': message, 'uuid': uuidv4(), 'timestring': timestring}
-      filename = "log_" + timestamp + `_${AIChar.characterName}.json`;
-  
-      const answerOnly = outputSplit[1].replace(`${AIChar.characterName}'s Answer:`, "");
-      const moodOnly = outputSplit[0].replace(`${AIChar.characterName}'s Mood:`, "");
-      mood = moodOnly;
-  
-      await saveJson(`memories_logs/${filename}`, info);
-      console.log("Synthesizing Speech ...")
-      console.log("");
-      console.log("Acquired episodic memories: ");
-      console.log(notes);
-      console.log("");
-      exec(`cd TTS & GPT-AZ-TTS.exe "${answerOnly}"`, (error, stdout, stderr) => {
-        if (error) {
-          console.error(`exec error: ${error}`);
-          return;
-        }
-        console.log(stdout)
-        return main();
-      });
-      console.log(output);
+        console.log(`${AIChar.characterName} is Thinking of an answer ...`)
+        // generate response, vectorize, save, etc
+        const output = await gpt3Completion(prompt, 'text-davinci-003', 1, 1, 70, 2, 2)
+        timestamp = Date.now();
+        vector = await gpt3Embedding(output)
+        timestring = timestampToDatetime(timestamp)
+    
+    
+        const outputSplit = output.split('\n').filter(x => x);
+        message = `${AIChar.characterName}: ${timestring} - "${outputSplit[1]}"`;
+        info = {'speaker': `${AIChar.characterName}`, 'time': timestamp, 'vector': vector, 'message': message, 'uuid': uuidv4(), 'timestring': timestring}
+        filename = "log_" + timestamp + `_${AIChar.characterName}.json`;
+    
+        const answerOnly = outputSplit[1].replace(`${AIChar.characterName}'s Answer:`, "");
+        const moodOnly = outputSplit[0].replace(`${AIChar.characterName}'s Mood:`, "");
+        mood = moodOnly;
+    
+        await saveJson(`memories_logs/${filename}`, info);
+    
+        assignPersona(message, timestamp, vector, timestring);
+    
+        console.log("Synthesizing Speech ...")
+        console.log("");
+        console.log("Acquired episodic memories: ");
+        console.log(notes);
+        console.log("");
+        exec(`cd TTS & GPT-AZ-TTS.exe "${answerOnly}"`, (error, stdout, stderr) => {
+          if (error) {
+            console.error(`exec error: ${error}`);
+            return;
+          }
+          console.log(stdout)
+          return main();
+        });
+        console.log(output);
+      }
+
+      function check() {
+          if (typeof notes == 'string') {
+              workerTaskDone();
+              // We don't need to interval the check function anymore,
+              // clearInterval will stop its periodical execution.
+              clearInterval(interval);
+          }
+      }
+      
+      // Create an instance of the check function interval
+      let interval = setInterval(check, 500);
     })
+  }
+  else {
+    summarizeMemories(workerData)
+  }
 }
 
 main();

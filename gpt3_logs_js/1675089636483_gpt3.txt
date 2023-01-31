@@ -1,0 +1,34 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT:
+USER: Sunday, January 29, 2023, 6:57 PM GMT+7 - HI KITA
+USER: Sunday, January 29, 2023, 6:59 PM GMT+7 - HI KITA
+Erick: Sunday, January 29, 2023, 6:59 PM GMT+7 - Andrew is inevitable
+Anto: Sunday, January 29, 2023, 6:59 PM GMT+7 - Jerma is poggers
+
+EXAMPLE NOTES:
+
+- USER said HI to Kita on Sunday, January 29th 2023 at 6:57 PM GMT+7.
+- USER repeated the same message again, January 29th 2023 at 6:59 PM GMT+7.
+- Erick stated that Andrew is inevitable, January 29th 2023 at 6:59 PM GMT+7.
+- Anto said that Jerma is poggers, January 29th 2023 at 6:59 PM GMT+7.
+
+INPUT:
+USER: Monday, January 30, 2023, 9:17 PM GMT+7 - "'Bruh your dumb'
+"
+
+USER: Monday, January 30, 2023, 9:24 PM GMT+7 - "'You kinda dumb honestly'
+"
+
+Kita: Monday, January 30, 2023, 9:24 PM GMT+7 - "Kita's Answer: You kinda dumb honestly? I might be a bit dim, but at least I don't need to take 10 minutes before understanding simple instructions."
+
+
+
+NOTES:
+
+
+==========
+
+- USER said "'Bruh your dumb'" on Monday, January 30th 2023 at 9:17 PM GMT+7.
+- USER repeated the same message again, January 30th 2023 at 9:24 PM GMT+7.
+- Kita answered with "Kita's Answer: You kinda dumb honestly? I might be a bit dim, but at least I don't need to take 10 minutes before understanding simple instructions.", January 30th 2023 at 9:24 PM GMT+7.
