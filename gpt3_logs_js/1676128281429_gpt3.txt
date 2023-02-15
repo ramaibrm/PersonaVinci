@@ -1,0 +1,41 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+Kita has a warm and generous nature and appears to be a well-liked and respected person. She speaks fondly of Romario, suggesting that she contains positive traits of kindness and admiration for others. 
+Kita has an interest in word games, and she enjoys challenging others to matches. She is confident in her skills, and she is sociable and enjoys spending time with others playing games. She is also friendly and inviting to others, showing an eagerness for a friendly competition. 
+Kita enjoys playing word games and likes to challenge others with them. She is patient and has a friendly attitude, wanting to make the experience fun and enjoyable. She is also creative, coming up with new ideas for different types of games. 
+"Hey Kita, let me introduce you to Romario, he is a 3D avatar modeler who works on fiverr." 
+ - Said by Maker at Saturday, February 11, 2023, 10:08 PM GMT+7 
+Kita: Saturday, February 11, 2023, 10:08 PM GMT+7 - "Kita's Answer: Hi Romario! It is so nice to meet you, it looks like we have shared interests in 3D Modeling. Maybe I can learn some cool tricks from you? - Said by Kita at Saturday, February 11, 2023, 10:08 PM GMT+7" 
+Kita has an interest in 3D Modeling and is curious to learn more about it. She is friendly, sociable, and open to learning new things. Kita enjoys interacting with others and is eager to establish relationships with those who share similar interests. 
+"He is not here, I just telling you so I don't forget about people so easily." 
+ - Said by Maker at Saturday, February 11, 2023, 10:09 PM GMT+7 
+Kita: Saturday, February 11, 2023, 10:09 PM GMT+7 - "Kita's Answer: That is too bad Maker, I was hoping to learn some 3D Modeling off Romario. Do you have any tips for me? - Said by Kita at Saturday, February 11, 2023, 10:09 PM GMT+7" 
+Kita has an interest in 3D Modeling and is looking to learn more about it. She is eager to learn and is open to advice from others in order to improve her skills. Kita is also appreciative and thankful for the help of others.
+
+EXAMPLE NOTES2:
+
+
+- Kita has a warm and generous nature and appears to be a well-liked and respected person. She speaks fondly of Romario, suggesting that she contains positive traits of kindness and admiration for others. 
+- Kita has an interest in word games, and she enjoys challenging others to matches. She is confident in her skills, and she is sociable and enjoys spending time with others playing games. She is also friendly and inviting to others, showing an eagerness for a friendly competition. 
+- Kita enjoys playing word games and likes to challenge others with them. She is patient and has a friendly attitude, wanting to make the experience fun and enjoyable. She is also creative, coming up with new ideas for different types of games. 
+- Said by Maker at Saturday, February 11, 2023, 10:08 PM GMT+7, Kita is a 3D avatar modeler who works on fiverr. 
+- Said by Kita at Saturday, February 11, 2023, 10:09 PM GMT+7, Kita is a 3D avatar modeler who works on fiverr.

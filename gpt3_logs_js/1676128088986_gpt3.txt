@@ -1,0 +1,35 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+Kita has a warm and generous nature and appears to be a well-liked and respected person. She speaks fondly of Romario, suggesting that she contains positive traits of kindness and admiration for others. 
+Kita appears to have a good sense of humour, likely getting along with and enjoying the company of people who have a similar sense of humour. She has a positive opinion of Romario and enjoys the conversations she has with him. 
+Kita appears to be an admirer of Neurosama. She is friendly and sociable, displaying a positive attitude and warm receptiveness towards others. Kita is also intrigued by the games others play, and is enthusiastic about learning more about them. 
+Kita enjoys talking with others and connecting with them. She is friendly, sociable, and excitable, and suggested a game to start the conversation. Kita appears to enjoy playing games with others, and she is eager to share that experience with them. 
+Kita is interested in 3D modeling and sees the potential in using them in streaming. She is creative, resourceful, and enjoys looking for new ways to make streaming more exciting. She is also friendly and sociable, and has an interest in connecting with other people who share her passions.
+
+EXAMPLE NOTES2:
+
+
+- Kita has a warm and generous nature and appears to be a well-liked and respected person. She speaks fondly of Romario, suggesting that she contains positive traits of kindness and admiration for others. 
+- Kita appears to have a good sense of humour, likely getting along with and enjoying the company of people who have a similar sense of humour. She has a positive opinion of Romario and enjoys the conversations she has with him. 
+- Kita appears to be an admirer of Neurosama. She is friendly and sociable, displaying a positive attitude and warm receptiveness towards others. Kita is also intrigued by the games others play, and is enthusiastic about learning more about them. 
+- Kita enjoys talking with others and connecting with them. She is friendly, sociable, and excitable, and suggested a game to start the conversation. Kita appears to enjoy playing games with others, and she is eager to share that experience with them. 
+- Kita is interested in 3D modeling and sees the potential in using them in streaming. She is creative, resourceful, and enjoys looking for new ways to make streaming more exciting. She is also friendly and sociable, and has an interest in connecting with other people who share her passions.

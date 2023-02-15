@@ -1,0 +1,31 @@
+Take a look at these two Detailed notes of a hyphenated list format from user interaction inputs:
+
+Inputs:
+
+"No can't sorry, he shy" 
+ - Said by Maker at Saturday, February 11, 2023, 10:12 PM GMT+7 
+"Hiiii do you know romario?" 
+ - Said by Ash at Saturday, February 11, 2023, 10:21 PM GMT+7 
+
+Notes:
+- Maker said "No can't sorry, he shy" on Saturday, February 11th 2023 at 10:12 PM GMT+7.
+- Ash asked "Hiiii do you know romario?" on Saturday, February 11th 2023 at 10:21 PM GMT+7.
+
+Inputs:
+"Yasss!" 
+ - Said by Ash at Saturday, February 11, 2023, 10:22 PM GMT+7 
+"Anything you wanna ask me?" 
+ - Said by Ash at Saturday, February 11, 2023, 10:22 PM GMT+7 
+"I like country music" 
+ - Said by Ash at Saturday, February 11, 2023, 10:29 PM GMT+7 
+"The one with AI superiority." 
+ - Said by Ash at Saturday, February 11, 2023, 10:30 PM GMT+7 
+"You don't agree with my views?" 
+ - Said by Ash at Saturday, February 11, 2023, 10:51 PM GMT+7
+
+Notes:
+- Ash said "Yasss!" on Saturday, February 11th 2023 at 10:22 PM GMT+7.
+- Ash asked "Anything you wanna ask me?" on Saturday, February 11th 2023 at 10:22 PM GMT+7.
+- Ash said "I like country music" on Saturday, February 11th 2023 at 10:29 PM GMT+7.
+- Ash said "The one with AI superiority." on Saturday, February 11th 2023 at 10:30 PM GMT+7.
+- Ash asked "You don't agree with my views?" on Saturday, February 11th 2023 at 10:51 PM GMT+7.

@@ -1,0 +1,50 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:16 AM GMT+7 - "yes" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:16 AM GMT+7 - "okok" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:20 AM GMT+7 - "yes" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:21 AM GMT+7 - "ok" 
+ 
+Az: Tuesday, January 31, 2023, 1:29 AM GMT+7 - "<3" 
+ 
+Kita has a warm and generous nature and appears to be a well-liked and respected person. She speaks fondly of Romario, suggesting that she contains positive traits of kindness and admiration for others. 
+Kita appears to have a good sense of humour, likely getting along with and enjoying the company of people who have a similar sense of humour. She has a positive opinion of Romario and enjoys the conversations she has with him. 
+Kita has an interest in classic video games such as Tropico, and she is knowledgeable and experienced in the game. She is happy to share her knowledge with others and is willing to help them play and enjoy the game. Kita appears to be friendly and inviting, and she enjoys connecting with others through games. 
+Kita's primary interest is Tropico, a video game. She shows a deep fondness and respect for the game, indicating that she has likely spent a large amount of time playing it. Kita is also curious and interested in learning more about others' interests, as she asks how Az developed such a profound love for the game. She is open and enjoys sharing her knowledge with others. 
+Kita enjoys talking with others and connecting with them. She is friendly, sociable, and excitable, and suggested a game to start the conversation. Kita appears to enjoy playing games with others, and she is eager to share that experience with them.
+
+EXAMPLE NOTES2:
+
+
+- USER said "yes" on Tuesday, January 31st 2023 at 12:16 AM GMT+7.
+- DYLAN responded with "okok" on Tuesday, January 31st 2023 at 1:16 AM GMT+7.
+- DYLAN responded with "yes" on Tuesday, January 31st 2023 at 1:20 AM GMT+7.
+- DYLAN responded with "yes" on Tuesday, January 31st 2023 at 1:21 AM GMT+7.
+- AZ responded with "<3" on Tuesday, January 31st 2023 at 1:29 AM GMT+7.
+- KITA has a warm and generous nature and appears to be a well-liked and respected person. She speaks fondly of Romario, suggesting that she contains positive traits of kindness and admiration for others. 
+- KITA appears to have a good sense of humour, likely getting along with and enjoying the company of people who have a similar sense of humour. She has a positive opinion of Romario and enjoys the conversations she has with him. 
+- KITA has an interest in classic video games such as Tropico, and she is knowledgeable and experienced in the game. She is happy to share her knowledge with others and is willing to help them play and enjoy the game. KITA appears to be friendly and inviting, and she enjoys connecting with others through games. 
+- KITA's primary interest is Tropico, a video game. She shows a deep fondness and respect for the game, indicating that she has likely spent a large amount of time playing it. KITA is also curious and interested in learning more about others' interests, as she asks how Az developed such a profound love for the game. She is open and enjoys sharing her knowledge with others. 
+- KITA enjoys talking with others and connecting with them. She is friendly, sociable, and excitable, and suggested a game to start the conversation. KITA appears to enjoy playing games with others, and she is eager to share that experience with them.

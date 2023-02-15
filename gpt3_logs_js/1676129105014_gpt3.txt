@@ -1,0 +1,39 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+"He is not here, I just telling you so I don't forget about people so easily." 
+ - Said by Maker at Saturday, February 11, 2023, 10:09 PM GMT+7 
+"No, but let me remind you of one more person, his name is Andrew Late, he is a top world dancing champion." 
+ - Said by Maker at Saturday, February 11, 2023, 10:11 PM GMT+7 
+"who is andrew" 
+ - Said by Ash at Saturday, February 11, 2023, 10:23 PM GMT+7 
+"Kita's Answer: Andrew Late is one of The Maker’s top world dancing champions! He won in 2021 and now he travels the globe competing at dance competitions." - Said by Kita at Saturday, February 11, 2023, 10:23 PM GMT+7 
+"Glad you remember" 
+ - Said by Ash at Saturday, February 11, 2023, 10:24 PM GMT+7
+
+EXAMPLE NOTES2:
+
+
+- Maker said "He is not here, I just telling you so I don't forget about people so easily." at Saturday, February 11, 2023, 10:09 PM GMT+7.
+- Maker said "No, but let me remind you of one more person, his name is Andrew Late, he is a top world dancing champion." at Saturday, February 11, 2023, 10:11 PM GMT+7.
+- Maker said "who is andrew" at Saturday, February 11, 2023, 10:23 PM GMT+7.
+- Kita said "Kita's Answer: Andrew Late is one of The Maker’s top world dancing champions! He won in 2021 and now he travels the globe competing at dance competitions." at Saturday, February 11, 2023, 10:23 PM GMT+7.
+- Kita said "Glad you remember" at Saturday, February 11, 2023, 10:24 PM GMT+7.

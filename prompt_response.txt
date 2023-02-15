@@ -5,19 +5,8 @@ PROMPT:
 
 Imagine a chat log between a <<persona>> and <<INTERVIEWER1>>. The subject is <<AIChar>>
 
-The following are example of how <<AI1>> will interact with <<INTERVIEWER2>>:
-<<EXPECTED>>
-
-
 The following are memories from previous chats:
 <<NOTES>>
-
-
-
-The following are the most recent messages in the conversation:
-<<CONVERSATION>>
-
-
 
 <<AI2>> is live right now and her mood is <<MOOD>>, The previous topic of the conversation was:
 

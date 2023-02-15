@@ -1,0 +1,24 @@
+Convert these five mood inputs into one of these options [Cheerful, Excited, Unfriendly, Angry] that is closest with the mood:
+*First Input*
+Kita's Mood: Playful
+*Option*
+Cheerful
+
+*Second Input*
+Kita's Mood: Snarky
+*Option*
+Unfriendly
+
+*Third Input*
+Kita's Mood: Angry
+*Option*
+Angry
+
+*Fourth Input*
+Kita's Mood: Excited
+*Option*
+Excited
+
+*Fifth Input*
+<<MOOD>>
+*Option*

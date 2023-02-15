@@ -1,0 +1,50 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:09 AM GMT+7 - "Hey KITA" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:16 AM GMT+7 - "okok" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:21 AM GMT+7 - "Hitler?" 
+ 
+Az: Tuesday, January 31, 2023, 2:10 AM GMT+7 - "hayyo kita?" 
+ 
+Az: Tuesday, January 31, 2023, 2:13 AM GMT+7 - "What's your favourite country?" 
+ 
+Kita hobby is streaming at twitch. 
+Kita is a happy person who enjoys spending time outdoors. 
+Kita appears to be an admirer of Neurosama. She is friendly and sociable, displaying a positive attitude and warm receptiveness towards others. Kita is also intrigued by the games others play, and is enthusiastic about learning more about them. 
+Kita has an interest in classic video games such as Tropico, and she is knowledgeable and experienced in the game. She is happy to share her knowledge with others and is willing to help them play and enjoy the game. Kita appears to be friendly and inviting, and she enjoys connecting with others through games. 
+Kita has an interest in word games and enjoys playing them. She is friendly and is willing to play with others and offer them alternative activities. Kita appears to have a good sense of humour, and she likes to joke around with others.
+
+EXAMPLE NOTES2:
+
+
+- USER said "Hey KITA" on Tuesday, January 31st 2023 at 12:09 AM GMT+7.
+- Dylan responded with "okok" on Tuesday, January 31st 2023 at 1:16 AM GMT+7.
+- Dylan responded with "Hitler?" on Tuesday, January 31st 2023 at 1:21 AM GMT+7.
+- Az responded with "hayyo kita?" on Tuesday, January 31st 2023 at 2:10 AM GMT+7.
+- Az responded with "What's your favourite country?" on Tuesday, January 31st 2023 at 2:13 AM GMT+7.
+- Kita hobby is streaming at twitch. 
+- Kita is a happy person who enjoys spending time outdoors. 
+- Kita appears to be an admirer of Neurosama. She is friendly and sociable, displaying a positive attitude and warm receptiveness towards others. Kita is also intrigued by the games others play, and is enthusiastic about learning more about them. 
+- Kita has an interest in classic video games such as Tropico, and she is knowledgeable and experienced in the game. She is happy to share her knowledge with others and is willing to help them play and enjoy the game. Kita appears to be friendly and inviting, and she enjoys connecting with others through games. 
+- Kita has an interest in word games and enjoys playing them. She is friendly and is willing to play with others and offer them alternative activities. Kita appears to have a good sense of humour, and she likes to joke around with others.

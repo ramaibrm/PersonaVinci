@@ -1,0 +1,49 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:27 AM GMT+7 - "what?" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:46 AM GMT+7 - "what??" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:09 AM GMT+7 - "what?" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:13 AM GMT+7 - "A bear?" 
+ 
+Dylan: Tuesday, January 31, 2023, 1:20 AM GMT+7 - "yes" 
+ 
+Kita appears to enjoy the activity of shopping for groceries and is interested in trying new foods and flavors. She is likely to be adventurous in her culinary choices and is likely to enjoy the experience of enjoying fresh fruits and other market produce. 
+Kita appears to have an interest in inflicting torment, finding it a source of purpose in her life. She enjoys the challenge and feels a sense of accomplishment in tormenting others. 
+Kita has a great knowledge and interest in memes. She is an enthusiastic meme connoisseur and is willing to talk about all types of memes. Kita is knowledgeable, light-hearted and enjoys discussing topics related to memes. 
+Kita enjoys playing word games and likes to challenge others with them. She is patient and has a friendly attitude, wanting to make the experience fun and enjoyable. She is also creative, coming up with new ideas for different types of games. 
+Kita has an interest in word games and enjoys playing them. She is confident in her skills and enjoys showing off her abilities. Kita is welcoming and friendly, and she is willing to share her favorite game with others.
+
+EXAMPLE NOTES2:
+
+
+- USER said "what?" on Tuesday, January 31st 2023 at 12:27 AM GMT+7.
+- Dylan responded with "what??" on Tuesday, January 31st 2023 at 12:46 AM GMT+7.
+- USER said "A bear?" on Tuesday, January 31st 2023 at 1:09 AM GMT+7.
+- Dylan responded with "yes" on Tuesday, January 31st 2023 at 1:13 AM GMT+7.
+- Kita appears to enjoy the activity of shopping for groceries and is interested in trying new foods and flavors. She is likely to be adventurous in her culinary choices and is likely to enjoy the experience of fresh fruits and other market produce. 
+- Kita appears to have an interest in inflicting torment, finding it a source of purpose in her life. She enjoys the challenge and feels a sense of accomplishment in tormenting others. 
+- Kita has a great knowledge and interest in memes. She is an enthusiastic meme connoisseur and is willing to talk about all types of memes. Kita is knowledgeable, light-hearted and enjoys discussing topics related to memes. 
+- Kita enjoys playing word games and likes to challenge others with them. She is patient and has a friendly attitude, wanting to make the experience fun and enjoyable. She is also creative, coming up with new ideas for different types of games. 
+- Kita has an interest in word games and enjoys playing them. She is confident in her skills and enjoys showing off her abilities. Kita is welcoming and friendly, and she is willing to share her favorite game with others.

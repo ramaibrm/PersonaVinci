@@ -10,15 +10,20 @@ const { exec } = require("child_process");
 const { Worker, isMainThread, workerData, parentPort } = require("worker_threads")
 const readline = require("readline");
 
+const bloomAIURL = 'https://api-inference.huggingface.co/models/bigscience/bloom'
+const hfAPI = 'insert Huggingface API Key'
+
 const configuration = new Configuration({
-    apiKey: "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"
+    apiKey: "insert OpenAI API Key"
   });
   
 const openai = new OpenAIApi(configuration);
 
 const configuration2 = new Configuration({
-  apiKey: "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"
+  apiKey: "insert OpenAI API Key"
 });
+
+let totalPrompts = 0;
 
 const openai2 = new OpenAIApi(configuration2);
 
@@ -49,12 +54,6 @@ async function saveJson(filepath, payload) {
       throw error;
     }
   }
-
-// function saveJson(filepath, payload) {
-//     fs.writeFile(filepath, JSON.stringify(payload, null, 2), 'utf8', (err) => {
-//         if (err) throw err;
-//     });
-// }
 
 function timestampToDatetime(unixTime) {
     return new Date(unixTime).toLocaleString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', timeZoneName: 'short' }); 
@@ -102,6 +101,41 @@ function fetchMemories(vector, logs, count) {
       return ordered;
     }
   }
+
+async function bloomCompletion(prompt, token = 115, noBreakLines = false) {
+  const config = {
+    headers: {
+      'Authorization': `Bearer ${hfAPI}`,
+    }
+  };
+  const data = {
+    "inputs": prompt,
+    "parameters": {
+      "do_sample": false,
+      "max_new_tokens": token,
+      "return_full_text": false,
+    }
+  }
+  try {
+    const response = await axios.post(bloomAIURL, data, config);
+    console.log("Task Completed ...");
+    // console.log(response.data[0].generated_text)
+    let text = response.data[0].generated_text.trim();
+    text = text.replace(/(\r\n)+/g, '\n');
+    text = text.replace(/(\t )+/g, ' ');
+    let filename = `${Date.now()}_bloom.txt`;
+    if (!fs.existsSync('gpt3_logs_js')) {
+        fs.mkdirSync('gpt3_logs_js');
+    }
+    fs.writeFileSync(`gpt3_logs_js/${filename}`, `${prompt}\n${text}`);
+    if (noBreakLines) {
+      return text.split("\n")[0]
+    }
+    return text;
+  } catch (err) {
+    console.log(err)
+  }
+}
 
 async function gpt3Embedding(content, engine = 'text-embedding-ada-002') {
   content = content.normalize('NFKD').replace(/[^\x00-\x7F]/g, '');
@@ -200,13 +234,14 @@ async function gpt3Completion(prompt, engine = 'text-curie-001', temp = 0.0, top
             fs.mkdirSync('gpt3_logs_js');
         }
         fs.writeFileSync(`gpt3_logs_js/${filename}`, `${prompt}\n${text}`);
+        totalPrompts += response.data.usage.total_tokens
         return text;
         } catch (oops) {
         retry += 1;
         if (retry >= maxRetry) {
             return `GPT3 error: ${oops}`;
         }
-        console.log('Error communicating with OpenAI:', oops);
+        console.log('Error communicating with OpenAI:', oops.data.error);
         await sleep(1000);
         }
     }
@@ -251,26 +286,24 @@ async function summarizeMemories(memories) {
     const identifiers = [];
     const timestamps = [];
     memories.forEach((mem) => {
-      block += `${mem.message} \n`;
+      let memContent = mem.message.replace(/(\r\n|\n|\r)/gm, "");
+      block += `${memContent} \n`;
       identifiers.push(mem.uuid);
       timestamps.push(mem.time);
     });
     block = block.trim();
     let prompt = await openFile('prompt_notes.txt')
     prompt = prompt.replace('<<INPUT>>', block)
-    const notes = await gpt3Completion(prompt, 'text-curie-001', 0, 1, 1071);
-    const vector = await gpt3Embedding(block);
     const info = {
-      notes: notes,
+      notes: block,
       uuids: identifiers,
       times: timestamps,
       uuid: uuidv4(),
-      vector,
     };
     const filename = `notes_${Date.now()}.json`;
     await saveJson(`notes/${filename}`, info);
     // return notes;
-    parentPort.postMessage(notes);
+    parentPort.postMessage(block);
   }
 
   const getLastMessages = (conversation, limit) => {
@@ -282,7 +315,7 @@ async function summarizeMemories(memories) {
     }
     let output = '';
     short.forEach((c) => {
-      output += `${c.message}\n\n`;
+      output += `${c.rawMessage}\n\n`;
     });
     return output.trim();
   };
@@ -291,15 +324,31 @@ async function assignPersona(message, timestamp, vector, timestring) {
     let personaPrompt = await openFile('prompt_interest.txt')
     personaPrompt = personaPrompt.replace('<<TEXT>>', message)
 
-    const persona = await gpt3AltCompletion(personaPrompt, 'text-davinci-003', 1.0, 1, 758);
+    const persona = await gpt3Completion(personaPrompt, 'text-davinci-003', 1.0, 1, 758);
 
-    // persona = `${viewerName}: ${timestring} - ${a}`;
     const newUUID = uuidv4();
     const info = {'speaker': AIChar.characterName, 'time': timestamp, 'vector': vector, 'message': persona, 'uuid': newUUID, 'timestring': timestring}
     const filename = "persona_" + timestamp + `_${AIChar.characterName}.json`;
     if (persona != "None") {
       await saveJson(`personality_logs/${filename}`, info);
     }
+}
+
+function synthesizeMood(mood) {
+  switch (mood) {
+    case "EXCITED":
+      return "cheerful"
+    case "SNARKY":
+      return "unfriendly"
+    case "ANGRY":
+      return "angry"
+    case "PLAYFUL":
+      return "friendly"
+    case "HAPPY":
+      return "friendly"
+    default:
+      return "friendly"
+  }
 }
 
 
@@ -323,7 +372,7 @@ async function main () {
     });
     rl.question("Enter CHAT: >> ", async function (text) {
       rl.close();
-      const a = `"${text}" \n`
+      const a = `"${text}"`
       let timestamp = Date.now();
       let vector = await gpt3Embedding(a);
   
@@ -333,34 +382,36 @@ async function main () {
       const traits = await loadPersona();
       let timestring = timestampToDatetime(timestamp)
   
-      let message = `${viewerName}: ${timestring} - ${a}`;
+      let message = `${a} - Said by ${viewerName} at ${timestring}`;
+      let rawMessage = `${viewerName}: ${a}`
       let newUUID = uuidv4();
-      let info = {'speaker': viewerName, 'time': timestamp, 'vector': vector, 'message': message, 'uuid': newUUID, 'timestring': timestring}
+      let info = {'speaker': viewerName, 'time': timestamp, 'vector': vector, 'message': message, 'rawMessage': rawMessage, 'uuid': newUUID, 'timestring': timestring}
       let filename = "log_" + timestamp + `_${viewerName}.json`;
       await saveJson(`memories_logs/${filename}`, info);
   
       // compose corpus (fetch memories, etc)
-      const memories = fetchMemories(vector, conversation, 5) // pull episodic memories
-      const personalities = fetchMemories(vector, traits, 5);
-  
-      memories.push(...personalities);
+      const memories = fetchMemories(vector, conversation, 3) // pull episodic memories
+      const personalities = fetchMemories(vector, traits, 2);
+      let personalitiesBlock = '';
+      personalities.forEach((per) => {
+        personalitiesBlock += `${per.message} \n`;
+      });
   
       // Fetch declarative memories (facts, questions, events)
       console.log("Fetching Episodic Memories ...")
-      // let notes = await summarizeMemories(memories)
       const worker = new Worker(__filename, {workerData: memories});
       worker.on("message", msg => { notes = msg });
       worker.on("error", err => console.error(err));
 
   
       // Get recent conversations
-      const recent = getLastMessages(conversation, 5)
+      const recent = getLastMessages(conversation, 3)
       let prompt = await openFile('prompt_response.txt')
   
       let topicPrompt = await openFile('search_topic.txt')
       topicPrompt = topicPrompt.replace("<<PREVIOUS_CHAT>>", getLastMessages(conversation, 1))
   
-      const topic = await gpt3AltCompletion(topicPrompt, 'text-davinci-003');
+      const topic = await bloomCompletion(topicPrompt, 35, true);
       
       let rules = await openFile('AI_ResponseRule.txt')
       rules = rules.replace('<<viewer_name>>', viewerName).replace('<<time>>', timestring);
@@ -368,35 +419,42 @@ async function main () {
       let expectedResponse = await openFile('AI_ExpectedResponse.txt')
 
       async function workerTaskDone () {
-        prompt = prompt.replace("<<TOPIC>>", topic).replace('<<NOTES>>', notes).replace('<<MOOD>>', mood).replace('<<EXPECTED>>', expectedResponse).replace('<<CONVERSATION>>', recent).replace('<<QUESTION>>', `${viewerName}: ${a}`).replace('<<RULE>>', rules).replace('<<persona>>', AIChar.characterPersona).replace('<<INTERVIEWER1>>', AIChar.interviewer).replace('<<AIChar>>', AIChar.characterInfo).replace('<<INTERVIEWER2>>', AIChar.interviewer).replace('<<AI1>>', AIChar.characterName).replace('<<AI2>>', AIChar.characterName);
+        notes += `\n${personalitiesBlock}`;
+        prompt = prompt.replace("<<TOPIC>>", topic).replace('<<NOTES>>', notes).replace('<<MOOD>>', mood).replace('<<EXPECTED>>', expectedResponse).replace('<<QUESTION>>', `${recent}\n${viewerName}: ${a}`).replace('<<RULE>>', rules).replace('<<persona>>', AIChar.characterPersona).replace('<<INTERVIEWER1>>', AIChar.interviewer).replace('<<AIChar>>', AIChar.characterInfo).replace('<<INTERVIEWER2>>', AIChar.interviewer).replace('<<AI1>>', AIChar.characterName).replace('<<AI2>>', AIChar.characterName);
       
         console.log(`${AIChar.characterName} is Thinking of an answer ...`)
         // generate response, vectorize, save, etc
-        const output = await gpt3Completion(prompt, 'text-davinci-003', 1, 1, 70, 2, 2)
+        const output = await gpt3Completion(prompt, 'text-davinci-003', 1, 1, 250, 2, 2)
         timestamp = Date.now();
         vector = await gpt3Embedding(output)
         timestring = timestampToDatetime(timestamp)
     
     
         const outputSplit = output.split('\n').filter(x => x);
-        message = `${AIChar.characterName}: ${timestring} - "${outputSplit[1]}"`;
-        info = {'speaker': `${AIChar.characterName}`, 'time': timestamp, 'vector': vector, 'message': message, 'uuid': uuidv4(), 'timestring': timestring}
+        message = `"${outputSplit[1]}" - Said by ${AIChar.characterName} at ${timestring}`;
+        rawMessage = `${outputSplit[1]}`;
+        info = {'speaker': `${AIChar.characterName}`, 'time': timestamp, 'vector': vector, 'message': message, rawMessage, 'uuid': uuidv4(), 'timestring': timestring}
         filename = "log_" + timestamp + `_${AIChar.characterName}.json`;
-    
-        const answerOnly = outputSplit[1].replace(`${AIChar.characterName}'s Answer:`, "");
-        const moodOnly = outputSplit[0].replace(`${AIChar.characterName}'s Mood:`, "");
+        console.log(outputSplit, 'outputsplit')
+        let answerOnly = ''
+        if (outputSplit.length == 2) {
+          answerOnly = outputSplit[1].replace(`${AIChar.characterName}'s Answer:`, "").replace(/['"]+/g, '');
+        }
+        const moodOnly = outputSplit[0].toUpperCase().replace(`${(AIChar.characterName).toUpperCase()}'S MOOD:`, "");
         mood = moodOnly;
+        console.log(mood.trim())
+        const synthesizedMood = synthesizeMood(mood.trim().toUpperCase())
+        console.log(synthesizedMood);
     
         await saveJson(`memories_logs/${filename}`, info);
-    
-        assignPersona(message, timestamp, vector, timestring);
     
         console.log("Synthesizing Speech ...")
         console.log("");
         console.log("Acquired episodic memories: ");
         console.log(notes);
         console.log("");
-        exec(`cd TTS & GPT-AZ-TTS.exe "${answerOnly}"`, (error, stdout, stderr) => {
+        console.log(totalPrompts);
+        exec(`cd TTS & GPT-AZ-TTS.exe "${text}?, ${answerOnly}" "${synthesizedMood}"`, (error, stdout, stderr) => {
           if (error) {
             console.error(`exec error: ${error}`);
             return;

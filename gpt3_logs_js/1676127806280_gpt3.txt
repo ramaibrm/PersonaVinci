@@ -1,0 +1,50 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+USER: Tuesday, January 31, 2023, 12:09 AM GMT+7 - "Hey KITA" 
+ 
+USER: Tuesday, January 31, 2023, 12:26 AM GMT+7 - "Kita what's the answer for the riddle!" 
+ 
+USER: Tuesday, January 31, 2023, 12:30 AM GMT+7 - "Kita lets do something else" 
+ 
+Dylan: Tuesday, January 31, 2023, 12:38 AM GMT+7 - "say my name kitaaa" 
+ 
+Az: Tuesday, January 31, 2023, 2:09 AM GMT+7 - "Hey Kita?" 
+ 
+Kita appears to have a good sense of humor and is able to appreciate jokes and lighthearted conversations. She values her friendship with The Maker and enjoys spending time with them. Kita is also able to keep a joke a secret, showing her ability to be discreet. 
+Kita has a warm and generous nature and appears to be a well-liked and respected person. She speaks fondly of Romario, suggesting that she contains positive traits of kindness and admiration for others. 
+Kita appears to have a good sense of humour, likely getting along with and enjoying the company of people who have a similar sense of humour. She has a positive opinion of Romario and enjoys the conversations she has with him. 
+Kita has a great knowledge and interest in memes. She is an enthusiastic meme connoisseur and is willing to talk about all types of memes. Kita is knowledgeable, light-hearted and enjoys discussing topics related to memes. 
+Kita enjoys talking with others and connecting with them. She is friendly, sociable, and excitable, and suggested a game to start the conversation. Kita appears to enjoy playing games with others, and she is eager to share that experience with them.
+
+EXAMPLE NOTES2:
+
+
+- USER said "Hey KITA" on Tuesday, January 31st 2023 at 12:09 AM GMT+7.
+- USER said "Kita what's the answer for the riddle!" on Tuesday, January 31st 2023 at 12:26 AM GMT+7.
+- USER said "Kita lets do something else" on Tuesday, January 31st 2023 at 12:30 AM GMT+7.
+- Dylan said "say my name kitaaa" on Tuesday, January 31st 2023 at 12:38 AM GMT+7.
+- Az said "Hey Kita?" on Tuesday, January 31st 2023 at 2:09 AM GMT+7.
+- Kita appears to have a good sense of humor and is able to appreciate jokes and lighthearted conversations. She values her friendship with The Maker and enjoys spending time with them. Kita is also able to keep a joke a secret, showing her ability to be discreet. 
+Kita has a warm and generous nature and appears to be a well-liked and respected person. She speaks fondly of Romario, suggesting that she contains positive traits of kindness and admiration for others. 
+Kita appears to have a good sense of humor, likely getting along with and enjoying the company of people who have a similar sense of humor. She has a positive opinion of Romario and enjoys the conversations she has with him. 
+Kita has a great knowledge and interest in memes. She is an enthusiastic meme connoisseur and is willing to talk about all types of memes. Kita is knowledgeable, light-hearted and enjoys discussing topics related to memes. 
+Kita enjoys talking with others and connecting with them. She is friendly, sociable, and excitable, and suggested a game to start the conversation. Kita appears to enjoy playing games with others, and she is eager to share that experience with them.

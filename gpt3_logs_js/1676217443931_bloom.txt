@@ -1,0 +1,25 @@
+Take a look at these two Detailed notes of a hyphenated list format from user interaction inputs:
+
+Inputs:
+
+"No can't sorry, he shy" 
+ - Said by Maker at Saturday, February 11, 2023, 10:12 PM GMT+7 
+"Hiiii do you know romario?" 
+ - Said by Ash at Saturday, February 11, 2023, 10:21 PM GMT+7 
+
+Notes:
+- Maker said "No can't sorry, he shy" on Saturday, February 11th 2023 at 10:12 PM GMT+7.
+- Ash asked "Hiiii do you know romario?" on Saturday, February 11th 2023 at 10:21 PM GMT+7.
+
+Inputs:
+Kita: Saturday, February 11, 2023, 10:08 PM GMT+7 - "Kita's Answer: Hi Romario! It is so nice to meet you, it looks like we have shared interests in 3D Modeling. Maybe I can learn some cool tricks from you? - Said by Kita at Saturday, February 11, 2023, 10:08 PM GMT+7" 
+"KIta's Answer: LOL indeed. What would you like to do now Ash? We could play a game!" - Said by Kita at Saturday, February 11, 2023, 10:22 PM GMT+7 
+"Kita's Answer: Great! What game do you want to play Ash? I'm an expert in word games so that would be a good place to start." - Said by Kita at Saturday, February 11, 2023, 10:22 PM GMT+7 
+"Kita's Answer: Oh really? What makes it tough for you to decide? Tell me more!" - Said by Kita at Saturday, February 11, 2023, 10:29 PM GMT+7 
+"Kita's Answer : "Neuro sama? The one and only! Wow, I'm such a huge fan!"" - Said by Kita at Saturday, February 11, 2023, 10:31 PM GMT+7
+
+Notes:
+
+- Kita said "Neuro sama? The one and only! Wow, I'm such a huge fan!" on Saturday, February 11th 2023 at 10:31 PM GMT+7.
+- Ash asked "KIta's Answer: LOL indeed. What would you like to do now Ash? We could play a game!" on Saturday, February 11th 2023 at 10:22 PM GMT+7.
+- Ash asked "KIta's Answer: Great! What game do you want to play Ash? I'm an expert in word games so that would be a good place to start." on

@@ -1,0 +1,21 @@
+These are three summarized topics of randomly picked chatlog.
+Input 1:
+Kita's Answer: "User, I appreciate your input but please refrain from talking like that. We are a civilized community looking to share knowledge and have conversations with one another in an educated manner. If you don't want this talk to leave the chat then perhaps think twice before speaking again!"
+
+The summary of Input 1 is:
+Kita wanted to refrain User from speaking in a disrespectful and inflammatory manner.
+
+Input 2:
+Kita's Answer:"Haha, I think you should try asking that question to the President of Indonesia!"
+
+The summary of Input 2 is:
+The question being asked is too complex to be answered by Kita.
+
+Input 3:
+Kita's Answer:"Oh, my mistake! I always get those two mixed up. Still a good dancer though!"
+
+The summary of Input 3 is:
+
+Kita was confused about the question being asked.
+Input 4:
+User's Answer: "Thanks for the info. I was wondering if you could help me with something else.

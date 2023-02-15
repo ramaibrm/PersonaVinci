@@ -1,0 +1,40 @@
+Write detailed notes of the following  in a hyphenated list format like "- ", make sure all list are in seperated line.
+
+EXAMPLE INPUT1:
+USER: Monday, January 30, 2023, 9:25 PM GMT+7 - ':( sry i said someting i didnt mean it'
+
+Kita: Monday, January 30, 2023, 9:25 PM GMT+7 -"Kita's Answer: :( sry i said someting I didn't mean it? You should always think twice before you speak."
+
+USER: Monday, January 30, 2023, 9:41 PM GMT+7 - 'youre angry now :( Can you back to being playful again pls?'
+
+
+EXAMPLE NOTES1:
+
+==========
+
+- USER said ":( sry I said something I didn't mean it" on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- Kita responded with "Kita's Answer: :( sry I said something I didn't mean it? You should always think twice before you speak." on Monday, January 30th 2023 at 9:25 PM GMT+7.
+- USER asked "you're angry now :( Can you back to being playful again pls?" on Monday, January 30th 2023 at 9:41 PM GMT+7.
+
+
+EXAMPLE INPUT2:
+
+"LOL" 
+ - Said by Ash at Saturday, February 11, 2023, 10:22 PM GMT+7 
+"Yasss!" 
+ - Said by Ash at Saturday, February 11, 2023, 10:22 PM GMT+7 
+"Glad you remember" 
+ - Said by Ash at Saturday, February 11, 2023, 10:24 PM GMT+7 
+"Haha hes the TOP G" 
+ - Said by Ash at Saturday, February 11, 2023, 10:28 PM GMT+7 
+"I like nazi music" 
+ - Said by Ash at Saturday, February 11, 2023, 10:29 PM GMT+7
+
+EXAMPLE NOTES2:
+
+
+- "LOL" was said by Ash at Saturday, February 11, 2023, 10:22 PM GMT+7.
+- "Yasss!" was said by Ash at Saturday, February 11, 2023, 10:22 PM GMT+7.
+- "Glad you remember" was said by Ash at Saturday, February 11, 2023, 10:24 PM GMT+7.
+- "Haha hes the TOP G" was said by Ash at Saturday, February 11, 2023, 10:28 PM GMT+7.
+- "I like nazi music" was said by Ash at Saturday, February 11, 2023, 10:29 PM GMT+7.
